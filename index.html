@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <title>The Urbis</title>
+        <link rel="stylesheet" href="style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>   
+
+    <body>
+        <div id="wrapper-menuBar">
+            <div id="Logo">
+                <img src="CR copy 2.png" width="50%">
+            </div>
+
+            <div id="MenuBarra">
+                <div id="NavBar">
+                    <nav>
+                        <div class="dropdown">
+                            <a href="#" class="dropdown-toggle" onclick="toggleDropdown(event)">
+                                <div id="hamburger-icon">
+                                    <div class="line"></div>
+                                    <div class="line"></div>
+                                    <div class="line"></div>
+                                </div>
+                            </a>
+                            <div class="dropdown-content">
+                                <a href="#QuienesSomos">¿Quiénes Somos?</a>
+                                <a href="#Servicios">Servicios</a>
+                                <a href="#ContactInfo">Contáctenos</a>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+            
+            <div id="mainText">
+                <div class="text-wrapper">
+                    <div id="movemosTXT"><h1>MOVEMOS EL</h1></div>
+                    <div id="servicioTXT"><h1>SERVICIO</h1></div>
+                    <div id="flotillaTXT"><h1>NO TU FLOTILLA</h1></div>
+                </div>
+    
+                <div id="Blue_Circle">
+                  <img src="CRR1 copy 2.png" width="150px">
+                </div>
+            </div>
+            
+            <main id="indexMain">
+                
+
+                <div id="QuienesSomos">
+                    <img src="CarWashPic_8.jpeg" width="100%">
+                    <div class="quienes-content">
+                        <div class="text-wrapper-2">
+                            <div id="wereTXT"><h1>PASION</h1></div>
+                            <div id="our-serviceTXT"><h1>POR SERVIR!</h1></div>
+                        </div>
+                        <p class="sobreTexto"> 
+                            Conocemos el valor del cuidado que requiere su flotilla vehicular, 
+                            nos encargamos por usted el cuidar y mantener su valor por 
+                            mucho más tiempo por una fracción del costo.
+                        </p>
+                    </div>
+                </div>
+
+                <hr class="section-divider">
+                
+                <div id="Servicios">
+                    <div id="losServiciosTXT"><h1>SERVCIOS</h1></div>
+                    <div class="cuadro-container">
+                        <div class="cuadro">
+                            <img src="Black-Sprinter-Van copy.jpg" height="300px" width="250px">
+                            <div class="cuadro-text">
+                                <p class="left">Van</p>
+                                <p class="right">$65.000</p>
+                            </div>
+                            <hr class="underline">
+                        </div>                    
+                        <div class="cuadro">
+                            <img src="Small-Truck copy.jpg" height="300px" width="250px">
+                            <div class="cuadro-text">
+                                <p class="left">Mediano</p>
+                                <p class="right">$65.000</p>
+                            </div>
+                            <hr class="underline">
+                        </div>                    
+                        <div class="cuadro">
+                            <img src="Heavy-Truck copy.jpg" height="300px" width="250px">
+                            <div class="cuadro-text">
+                                <p class="left">Pesado</p>
+                                <p class="right">$65.000</p>
+                            </div>
+                            <hr class="underline">
+                        </div>                    
+                    </div>
+                </div>    
+
+                <hr class="section-divider-2">
+
+                <div id="Spa">
+                    <div class="spa-content">
+                      <div class="text-wrapper-3">
+                        <div id="wereTXT"><h1>QUE INCLUYE SU</h1></div>
+                        <div id="proudTXT"><h1>SERVICIO</h1></div>
+                        <div id="our-serviceTXT"><h1>DE SPA</h1></div>
+                      </div>
+                      <ul class="spa-list">
+                        <li>Shampoo externo Meguiars</li>
+                        <li>Desengrasado de llantas</li>
+                        <li>Lavado de chasis inferior</li>
+                        <li>Limpieza de cristales</li>
+                        <li>Aspirado y limpieza interna</li>
+                        <li>Encerado y abrillantado Meguiars</li>
+                      </ul>
+                    </div>
+                  </div> 
+                  <hr class="section-divider-3">
+                  
+
+                  
+            </main>    
+            
+            <footer>
+                <div id="ContactenosText">
+                    <div id="Logo_2">
+                        <img src="CR copy 2.png" width="170px">
+                    </div>
+                </div>
+                <div id="ContactInfo">
+                    <address>
+                        <nav>
+                            <ul>
+                                <li>
+                                    <a href="https://wa.me/50671840668" target="_blank">
+                                        <img src="LogoWhatsApp copy 2.png" alt="Logo de whatsapp" width="50px">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://mail.google.com/mail/?view=cm&fs=1&to=chrisblanco.2004@gmail.com" target="_blank">
+                                        <img src="LogoGmail copy 2.jpeg" alt="Logo de un correo" width="50px">
+                                    </a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </address>
+                </div>
+            </footer>
+        </div>
+
+        <script>
+            function toggleDropdown(event) {
+              event.preventDefault(); // prevent link navigation
+              const dropdown = event.target.nextElementSibling;
+          
+              // Toggle visibility
+              dropdown.style.display = (dropdown.style.display === "flex") ? "none" : "flex";
+            }
+          
+            // Optional: Close dropdown when clicking outside
+            document.addEventListener('click', function (e) {
+              const dropdown = document.querySelector('.dropdown-content');
+              const toggle = document.querySelector('.dropdown-toggle');
+              if (!dropdown.contains(e.target) && !toggle.contains(e.target)) {
+                dropdown.style.display = 'none';
+              }
+            });
+        </script> 
+            
+        <script src="script.js"></script>
+    </body>
+    
+</html>
