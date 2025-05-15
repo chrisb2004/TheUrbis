@@ -1,0 +1,5304 @@
+html {
+    background-color: rgb(0, 0, 0);
+    font-family: 'Century Gothic', sans-serif;
+    width: 100%;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+body {
+    overflow-x: hidden;
+    margin: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+h1, h2, h3, h4, h5, h6, p, span, a {
+    font-weight: 100;
+}
+#MenuBar {
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    position: fixed;
+    width: 100%;
+    z-index: 1001;
+    justify-content: space-between;
+}
+#NavBar {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+nav {
+    display: flex;
+    align-items: center;
+}
+#Logo-MenuBar {
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+}
+#hamburger-icon {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    width: 30px;
+
+}
+.line {
+    height: 3px;
+    background-color: white;
+    width: 100%;
+    border-radius: 5px;
+}
+#main-design {
+    display: flex;
+    flex-direction: column;
+}
+.text-wrapper {
+    color: white;
+    line-height: 0.1;
+    flex-direction: column;
+    display: flex;
+}
+.text-wrapper h1 {
+    z-index: 3;
+    display: flex;
+    justify-content: center;
+}
+#main-web-image {
+    margin: 0 auto;
+    height: auto;
+    z-index: -1;
+    position: relative;
+}
+#pasion-servir {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+#car-wash-pic {
+    width: 100%;
+    height: auto;
+    filter: brightness(40%);
+    object-fit: cover;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+}
+.text-wrapper-2 {
+    color: white;
+    display: block;
+    margin: 0 auto;
+    flex-direction: column;
+    line-height: 0.2;
+    z-index: 2;
+}
+.text-wrapper-2 h1 {
+    z-index: 3;
+    display: flex;
+    justify-content: center;
+}
+.sobreTexto {
+    color: white;
+    display: block;
+    margin: 0 auto;
+    text-align: justify;
+    z-index: 2;
+}
+#Servicio {
+    color: white;
+    position: relative;
+}
+#title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 3;
+    position: relative;
+}
+.custom-line {
+    border: none;              
+    height: 1px;                
+    background-color: rgb(255, 255, 255);               
+    justify-content: center;          
+}      
+.text-wrapper {
+    display: flex;
+    justify-content: center;
+}
+.text-wrapper-3 {
+    display: flex;
+    margin: 0 auto;
+    text-align: justify;
+    z-index: 2;
+    position: relative;
+    justify-content: center;
+}
+#servicio-1 h3 {
+    display: flex;
+    margin: 0 auto;
+    z-index: 2;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#servicio-1 a {
+    display: flex;
+    margin: 0 auto;
+    z-index: 2;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+}
+.text-wrapper-3 {
+    display: flex;
+    margin: 0 auto;
+    text-align: justify;
+    z-index: 2;
+    position: relative;
+    justify-content: center;
+}
+#servicio-1 h3 {
+    display: flex;
+    margin: 0 auto;
+    z-index: 2;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#servicio-1 a {
+    display: flex;
+    margin: 0 auto;
+    z-index: 2;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+}
+.text-wrapper-32 {
+    display: flex;
+    margin: 0 auto;
+    text-align: justify;
+    z-index: 2;
+    position: relative;
+    justify-content: center;
+}
+#servicio-2 h3 {
+    display: flex;
+    margin: 0 auto;
+    z-index: 2;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#servicio-2 a {
+    display: flex;
+    margin: 0 auto;
+    z-index: 2;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+}
+.text-wrapper-33 {
+    display: flex;
+    margin: 0 auto;
+    text-align: justify;
+    z-index: 2;
+    position: relative;
+    justify-content: center;
+}
+#servicio-3 h3 {
+    display: flex;
+    margin: 0 auto;
+    z-index: 2;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#servicio-3 a {
+    display: flex;
+    margin: 0 auto;
+    z-index: 2;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+}
+.text-wrapper-34 {
+    display: flex;
+    margin: 0 auto;
+    text-align: justify;
+    z-index: 2;
+    position: relative;
+    justify-content: center;
+}
+#servicio-4 h3 {
+    display: flex;
+    margin: 0 auto;
+    z-index: 2;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#servicio-4 a {
+    display: flex;
+    margin: 0 auto;
+    z-index: 2;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+}
+.text-wrapper-35 {
+    display: flex;
+    margin: 0 auto;
+    text-align: justify;
+    z-index: 2;
+    position: relative;
+    justify-content: center;
+}
+#servicio-5 h3 {
+    display: flex;
+    margin: 0 auto;
+    z-index: 2;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#servicio-5 a {
+    display: flex;
+    margin: 0 auto;
+    z-index: 2;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+}
+.text-wrapper-36 {
+    display: flex;
+    margin: 0 auto;
+    text-align: justify;
+    z-index: 2;
+    position: relative;
+    justify-content: center;
+}
+#servicio-6 h3 {
+    display: flex;
+    margin: 0 auto;
+    z-index: 2;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#servicio-6 a {
+    display: flex;
+    margin: 0 auto;
+    z-index: 2;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+}
+.text-wrapper-37 {
+    display: flex;
+    margin: 0 auto;
+    text-align: justify;
+    z-index: 2;
+    position: relative;
+    justify-content: center;
+}
+#servicio-7 h3 {
+    display: flex;
+    margin: 0 auto;
+    z-index: 2;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#servicio-7 a {
+    display: flex;
+    margin: 0 auto;
+    z-index: 2;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+}
+.text-wrapper-38 {
+    display: flex;
+    margin: 0 auto;
+    text-align: justify;
+    z-index: 2;
+    position: relative;
+    justify-content: center;
+}
+#servicio-8 h3 {
+    display: flex;
+    margin: 0 auto;
+    z-index: 2;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#servicio-8 a {
+    display: flex;
+    margin: 0 auto;
+    z-index: 2;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+}
+.text-wrapper-39 {
+    display: flex;
+    margin: 0 auto;
+    text-align: justify;
+    z-index: 2;
+    position: relative;
+    justify-content: center;
+}
+#servicio-9 h3 {
+    display: flex;
+    margin: 0 auto;
+    z-index: 2;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#servicio-9 a {
+    display: flex;
+    margin: 0 auto;
+    z-index: 2;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+}
+#bottonSacarCita {
+    z-index: 2;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.email-button {
+    font-family: 'Century Gothic', sans-serif;
+    background-color: #ffea00;
+    padding: 5px 25px;
+    border: none;
+    border-radius: 3px;
+    font-size: 13px;
+    cursor: pointer;
+    transition: transform 0.25s ease-in-out;
+}
+#servicio-spa {
+    color: white;
+    transform: translateY(25px);
+    margin-bottom: 100px;
+}
+.text-wrapper-4 {
+    line-height: 0.3;
+    margin-left: 20px;
+    margin-bottom: 50px;
+}
+.spa-list {
+    display: block;
+    width: fit-content;
+    margin: 0 auto;
+    text-align: justify;
+    align-items: center;
+}
+#partner-logos {
+    display: flex;
+    justify-content: center;
+}
+#partner-logos img {
+    object-fit: contain;
+}
+#Logo_2 {
+    text-align: center;
+    width: 100%;
+}
+#ContactInfo ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    width: 100%;
+    box-sizing: border-box;
+}
+#ContactInfo li {
+    margin-bottom: 15px;
+    white-space: nowrap;
+    border-radius: 50%;
+    height: 50px;
+}
+#ContactInfo img {
+    transition: all 0.3s ease-in-out;
+}
+#ContactInfo a img {
+    border-radius: 50%;  
+}
+
+/*Samsung Galaxy S8+*/
+@media only screen and (max-width: 400px) and (orientation: portrait) {
+    #test {
+        width: 140px;
+        height: auto;
+    }
+    .desktop-menu {
+        display: none;
+        visibility: hidden;
+        opacity: 0;
+        pointer-events: none;
+    }
+    #MenuBar {
+        height: 92px;
+    }
+    .dropdown-toggle {
+        display: flex;
+        align-items: center;
+        margin-right: 15px;
+    }
+    .dropdown-content {
+        top: 92px;
+        right: 0;
+        display: none;
+        flex-direction: column;
+        background-color: rgba(0, 0, 0);
+        position: absolute;
+        z-index: 1001;
+        text-align: center;
+        animation: dropdown-slide 0.3s ease-in-out forwards;
+    }
+    .dropdown-content a {
+        color: white;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        transition: transform 0.3s ease;
+    }
+    @keyframes dropdown-slide {
+        0% {
+            opacity: 0;
+            transform: translateY(-10px);
+        }
+        100% {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+    .text-wrapper {
+        margin-top: 140px;
+        font-size: 20px;
+    }
+    .text-wrapper h1 {
+        margin-bottom: 5px;
+    }
+    #movemosTXT {
+        transform: translateX(-40px);
+    }
+    #servicioTXT {
+        transform: translateX(35px);
+    }
+    #flotillaTXT {
+        transform: translateX(25px);
+    }
+    #main-web-image {
+        width: 126px;
+        transform: translateY(-130px) translateX(105px);
+    }
+    #pasion-servir {
+        transform: translateY(-65px);
+    }
+    .text-wrapper-2 {
+        font-size: 15px;
+    }
+    #wereTXT {
+        margin-bottom: 5px;
+    }
+    .sobreTexto {
+        font-size: 12px;
+        max-width: 160px;
+        transform: translateY(0px);
+    }
+    #car-wash-pic {
+        width: 520px;
+        height: auto;
+    }
+    #title {
+        font-size: 15px;
+        transform: translateY(-30px);
+        height: 50px;
+    }
+    .text-wrapper-3 {
+        width: 100%;
+    }
+    #service-pic-1 {
+        width: 300px;
+        height: auto;
+    }
+    #servicio-1 {
+        margin-bottom: 100px;
+    }
+    #servicio-1 h3 {
+        margin-top: 10px;
+        width: 300px;
+    }
+    #servicio-1 a {
+        margin-top: 10px;
+        width: 300px;
+    }
+    .text-wrapper-32 {
+        width: 100%;
+    }
+    #service-pic-2 {
+        width: 300px;
+        height: auto;
+    }
+    #servicio-2 {
+        margin-bottom: 100px;
+    }
+    #servicio-2 h3 {
+        margin-top: 10px;
+        width: 300px;
+    }
+    #servicio-2 a {
+        margin-top: 10px;
+        width: 300px;
+    }
+    .text-wrapper-33 {
+        width: 100%;
+    }
+    #service-pic-3 {
+        width: 300px;
+        height: auto;
+    }
+    #servicio-3 {
+        margin-bottom: 100px;
+    }
+    #servicio-3 h3 {
+        margin-top: 10px;
+        width: 300px;
+    }
+    #servicio-3 a {
+        margin-top: 10px;
+        width: 300px;
+    }
+    .text-wrapper-34 {
+        width: 100%;
+    }
+    #service-pic-4 {
+        width: 300px;
+        height: auto;
+    }
+    #servicio-4 {
+        margin-bottom: 100px;
+    }
+    #servicio-4 h3 {
+        margin-top: 10px;
+        width: 300px;
+    }
+    #servicio-4 a {
+        margin-top: 10px;
+        width: 300px;
+    }
+    .text-wrapper-35 {
+        width: 100%;
+    }
+    #service-pic-5 {
+        width: 300px;
+        height: auto;
+    }
+    #servicio-5 {
+        margin-bottom: 100px;
+    }
+    #servicio-5 h3 {
+        margin-top: 10px;
+        width: 300px;
+    }
+    #servicio-5 a {
+        margin-top: 10px;
+        width: 300px;
+    }
+    .text-wrapper-36 {
+        width: 100%;
+    }
+    #service-pic-6 {
+        width: 300px;
+        height: auto;
+    }
+    #servicio-6 {
+        margin-bottom: 100px;
+    }
+    #servicio-6 h3 {
+        margin-top: 10px;
+        width: 300px;
+    }
+    #servicio-6 a {
+        margin-top: 10px;
+        width: 300px;
+    }
+    .text-wrapper-37 {
+        width: 100%;
+    }
+    #service-pic-7 {
+        width: 300px;
+        height: auto;
+    }
+    #servicio-7 {
+        margin-bottom: 100px;
+    }
+    #servicio-7 h3 {
+        margin-top: 10px;
+        width: 300px;
+    }
+    #servicio-7 a {
+        margin-top: 10px;
+        width: 300px;
+    }
+    .text-wrapper-38 {
+        width: 100%;
+    }
+    #service-pic-8 {
+        width: 300px;
+        height: auto;
+    }
+    #servicio-8 {
+        margin-bottom: 100px;
+    }
+    #servicio-8 h3 {
+        margin-top: 10px;
+        width: 300px;
+    }
+    #servicio-8 a {
+        margin-top: 10px;
+        width: 300px;
+    }
+    .text-wrapper-39 {
+        width: 100%;
+    }
+    #service-pic-9 {
+        width: 300px;
+        height: auto;
+    }
+    #servicio-9 {
+        margin-bottom: 60px;
+    }
+    #servicio-9 h3 {
+        margin-top: 10px;
+        width: 300px;
+    }
+    #servicio-9 a {
+        margin-top: 10px;
+        width: 300px;
+    }
+    .custom-line {
+        width: 300px;                
+        margin-bottom: 30px;             
+    }      
+    .email-button {
+        padding: 15px 15px;
+        border-radius: 3px;
+        font-size: 15px;
+    }
+    .text-wrapper-4 {
+        font-size: 15px;
+        margin-top: 40px;
+    }
+    .spa-list li {
+        margin-bottom: 15px;
+    }
+    #footer-logo {
+        width: 170px;
+        height: auto;
+    }
+    #partner-logos {
+        gap: 20px;
+    }
+    #ContactInfo ul {
+        margin-top: 30px;
+        margin-left: 0;
+        padding: 0 20px;
+    }
+    #ContactInfo li {
+        margin-bottom: 15px;
+        height: 50px;
+    }
+    #ContactInfo img {
+        width: 50px;
+    }
+    #meguiars {
+        width: 100px;
+        height: auto;
+    }
+    #karcher {
+        width: 105px;
+        height: auto;
+    }
+    #mothers {
+        width: 105px;
+        height: auto;
+    }
+}
+@media only screen and (max-height: 400px) and (orientation: landscape) {
+    #test {
+        width: 180px;
+        height: auto;
+    }
+    .desktop-menu {
+        display: none;
+        visibility: hidden;
+        opacity: 0;
+        pointer-events: none;
+    }
+    #MenuBar {
+        height: 100px;
+    }
+    .dropdown-toggle {
+        display: flex;
+        align-items: center;
+        margin-right: 15px;
+    }
+    .dropdown-content {
+        top: 92px;
+        right: 0;
+        display: none;
+        flex-direction: column;
+        background-color: rgba(0, 0, 0);
+        position: absolute;
+        z-index: 1001;
+        text-align: center;
+        animation: dropdown-slide 0.3s ease-in-out forwards;
+    }
+    .dropdown-content a {
+        color: white;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        transition: transform 0.3s ease;
+    }
+    @keyframes dropdown-slide {
+        0% {
+            opacity: 0;
+            transform: translateY(-10px);
+        }
+        100% {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+    .text-wrapper {
+        margin-top: 140px;
+        font-size: 25px;
+    }
+    .text-wrapper h1 {
+        margin-bottom: 5px;
+    }
+    #movemosTXT {
+        transform: translateX(-65px);
+    }
+    #servicioTXT {
+        transform: translateX(35px);
+    }
+    #flotillaTXT {
+        transform: translateX(15px);
+    }
+    #main-web-image {
+        width: 150px;
+        transform: translateY(-155px) translateX(112px);
+    }
+    #pasion-servir {
+        transform: translateY(-70px);
+    }
+    .text-wrapper-2 {
+        font-size: 20px;
+    }
+    #wereTXT {
+        margin-bottom: 5px;
+    }
+    .sobreTexto {
+        font-size: 18px;
+        max-width: 230px;
+    }
+    #car-wash-pic {
+        width: 100%;
+        height: auto;
+    }
+    #title {
+        font-size: 20px;
+        margin-bottom: 25px;
+        height: 50px;
+        transform: translateY(-20px);
+    }
+    .text-wrapper-3 {
+        width: 100%;
+    }
+    #service-pic-1 {
+        width: 400px;
+        height: auto;
+    }
+    #servicio-1 {
+        margin-bottom: 100px;
+    }
+    #servicio-1 h3 {
+        margin-top: 10px;
+        width: 420px;
+        font-size: 20px;
+    }
+    #servicio-1 a {
+        margin-top: 10px;
+        width: 350px;
+        font-size: 18px;
+    }
+    .text-wrapper-32 {
+        width: 100%;
+    }
+    #service-pic-2 {
+        width: 400px;
+        height: auto;
+    }
+    #servicio-2 {
+        margin-bottom: 100px;
+    }
+    #servicio-2 h3 {
+        margin-top: 10px;
+        width: 400px;
+        font-size: 22px;
+    }
+    #servicio-2 a {
+        margin-top: 10px;
+        width: 350px;
+        font-size: 18px;
+    }
+    .text-wrapper-33 {
+        width: 100%;
+    }
+    #service-pic-3 {
+        width: 400px;
+        height: auto;
+    }
+    #servicio-3 {
+        margin-bottom: 100px;
+    }
+    #servicio-3 h3 {
+        margin-top: 10px;
+        width: 400px;
+        font-size: 22px;
+    }
+    #servicio-3 a {
+        margin-top: 10px;
+        width: 350px;
+        font-size: 18px;
+    }
+    .text-wrapper-34 {
+        width: 100%;
+    }
+    #service-pic-4 {
+        width: 400px;
+        height: auto;
+    }
+    #servicio-4 {
+        margin-bottom: 100px;
+    }
+    #servicio-4 h3 {
+        margin-top: 10px;
+        width: 400px;
+        font-size: 22px;
+    }
+    #servicio-4 a {
+        margin-top: 10px;
+        width: 350px;
+        font-size: 18px;
+    }
+    .text-wrapper-35 {
+        width: 100%;
+    }
+    #service-pic-5 {
+        width: 400px;
+        height: auto;
+    }
+    #servicio-5 {
+        margin-bottom: 100px;
+    }
+    #servicio-5 h3 {
+        margin-top: 10px;
+        width: 400px;
+        font-size: 22px;
+    }
+    #servicio-5 a {
+        margin-top: 10px;
+        width: 350px;
+        font-size: 18px;
+    }
+    .text-wrapper-36 {
+        width: 100%;
+    }
+    #service-pic-6 {
+        width: 400px;
+        height: auto;
+    }
+    #servicio-6 {
+        margin-bottom: 100px;
+    }
+    #servicio-6 h3 {
+        margin-top: 10px;
+        width: 400px;
+        font-size: 22px;
+    }
+    #servicio-6 a {
+        margin-top: 10px;
+        width: 350px;
+        font-size: 18px;
+    }
+    .text-wrapper-37 {
+        width: 100%;
+    }
+    #service-pic-7 {
+        width: 400px;
+        height: auto;
+    }
+    #servicio-7 {
+        margin-bottom: 100px;
+    }
+    #servicio-7 h3 {
+        margin-top: 10px;
+        width: 400px;
+        font-size: 22px;
+    }
+    #servicio-7 a {
+        margin-top: 10px;
+        width: 350px;
+        font-size: 18px;
+    }
+    .text-wrapper-38 {
+        width: 100%;
+    }
+    #service-pic-8 {
+        width: 400px;
+        height: auto;
+    }
+    #servicio-8 {
+        margin-bottom: 100px;
+    }
+    #servicio-8 h3 {
+        margin-top: 10px;
+        width: 400px;
+        font-size: 22px;
+    }
+    #servicio-8 a {
+        margin-top: 10px;
+        width: 350px;
+        font-size: 18px;
+    }
+    .text-wrapper-39 {
+        width: 100%;
+    }
+    #service-pic-9 {
+        width: 400px;
+        height: auto;
+    }
+    #servicio-9 {
+        margin-bottom: 60px;
+    }
+    #servicio-9 h3 {
+        margin-top: 10px;
+        width: 400px;
+        font-size: 22px;
+    }
+    #servicio-9 a {
+        margin-top: 10px;
+        width: 350px;
+        font-size: 18px;
+    }
+    .custom-line {
+        width: 400px;                
+        margin-bottom: 30px;             
+    }      
+    .email-button {
+        padding: 15px 15px;
+        border-radius: 3px;
+        font-size: 18px;
+    }
+    .text-wrapper-4 {
+        font-size: 20px;
+        margin-top: 60px;
+    }
+    .spa-list {
+        margin-top: 70px;
+    }
+    .spa-list li {
+        margin-bottom: 15px;
+        font-size: 20px;
+    }
+    #footer-logo {
+        width: 210px;
+        height: auto;
+    }
+    #partner-logos {
+        gap: 20px;
+    }
+    #ContactInfo ul {
+        margin-top: 30px;
+        margin-left: 0;
+        padding: 0 20px;
+    }
+    #ContactInfo li {
+        margin-bottom: 15px;
+        height: 50px;
+    }
+    #ContactInfo img {
+        width: 60px;
+    }
+    #meguiars {
+        width: 140px;
+        height: auto;
+    }
+    #karcher {
+        width: 145px;
+        height: auto;
+    }
+    #mothers {
+        width: 145px;
+        height: auto;
+    }
+}
+
+/*Galaxy S20 Ultra*/
+@media only screen and (min-width: 401px) and (max-width: 767px) and (orientation: portrait) {
+    #test {
+        width: 140px;
+        height: auto;
+    }
+    .desktop-menu {
+        display: none;
+        visibility: hidden;
+        opacity: 0;
+        pointer-events: none;
+    }
+    #MenuBar {
+        height: 92px;
+    }
+    .dropdown-toggle {
+        display: flex;
+        align-items: center;
+        margin-right: 15px;
+    }
+    .dropdown-content {
+        top: 92px;
+        right: 0;
+        display: none;
+        flex-direction: column;
+        background-color: rgba(0, 0, 0);
+        position: absolute;
+        z-index: 1001;
+        text-align: center;
+        animation: dropdown-slide 0.3s ease-in-out forwards;
+    }
+    .dropdown-content a {
+        color: white;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        transition: transform 0.3s ease;
+    }
+    @keyframes dropdown-slide {
+        0% {
+            opacity: 0;
+            transform: translateY(-10px);
+        }
+        100% {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+    .text-wrapper {
+        margin-top: 140px;
+        font-size: 20px;
+    }
+    .text-wrapper h1 {
+        margin-bottom: 5px;
+    }
+    #movemosTXT {
+        transform: translateX(-40px);
+    }
+    #servicioTXT {
+        transform: translateX(35px);
+    }
+    #flotillaTXT {
+        transform: translateX(25px);
+    }
+    #main-web-image {
+        width: 126px;
+        transform: translateY(-130px) translateX(105px);
+    }
+    #pasion-servir {
+        transform: translateY(-65px);
+    }
+    .text-wrapper-2 {
+        font-size: 15px;
+    }
+    #wereTXT {
+        margin-bottom: 5px;
+    }
+    .sobreTexto {
+        font-size: 12px;
+        max-width: 160px;
+        transform: translateY(0px);
+    }
+    #car-wash-pic {
+        width: 520px;
+        height: auto;
+    }
+    #title {
+        font-size: 15px;
+        transform: translateY(-30px);
+        height: 50px;
+    }
+    .text-wrapper-3 {
+        width: 100%;
+    }
+    #service-pic-1 {
+        width: 300px;
+        height: auto;
+    }
+    #servicio-1 {
+        margin-bottom: 100px;
+    }
+    #servicio-1 h3 {
+        margin-top: 10px;
+        width: 300px;
+    }
+    #servicio-1 a {
+        margin-top: 10px;
+        width: 300px;
+    }
+    .text-wrapper-32 {
+        width: 100%;
+    }
+    #service-pic-2 {
+        width: 300px;
+        height: auto;
+    }
+    #servicio-2 {
+        margin-bottom: 100px;
+    }
+    #servicio-2 h3 {
+        margin-top: 10px;
+        width: 300px;
+    }
+    #servicio-2 a {
+        margin-top: 10px;
+        width: 300px;
+    }
+    .text-wrapper-33 {
+        width: 100%;
+    }
+    #service-pic-3 {
+        width: 300px;
+        height: auto;
+    }
+    #servicio-3 {
+        margin-bottom: 100px;
+    }
+    #servicio-3 h3 {
+        margin-top: 10px;
+        width: 300px;
+    }
+    #servicio-3 a {
+        margin-top: 10px;
+        width: 300px;
+    }
+    .text-wrapper-34 {
+        width: 100%;
+    }
+    #service-pic-4 {
+        width: 300px;
+        height: auto;
+    }
+    #servicio-4 {
+        margin-bottom: 100px;
+    }
+    #servicio-4 h3 {
+        margin-top: 10px;
+        width: 300px;
+    }
+    #servicio-4 a {
+        margin-top: 10px;
+        width: 300px;
+    }
+    .text-wrapper-35 {
+        width: 100%;
+    }
+    #service-pic-5 {
+        width: 300px;
+        height: auto;
+    }
+    #servicio-5 {
+        margin-bottom: 100px;
+    }
+    #servicio-5 h3 {
+        margin-top: 10px;
+        width: 300px;
+    }
+    #servicio-5 a {
+        margin-top: 10px;
+        width: 300px;
+    }
+    .text-wrapper-36 {
+        width: 100%;
+    }
+    #service-pic-6 {
+        width: 300px;
+        height: auto;
+    }
+    #servicio-6 {
+        margin-bottom: 100px;
+    }
+    #servicio-6 h3 {
+        margin-top: 10px;
+        width: 300px;
+    }
+    #servicio-6 a {
+        margin-top: 10px;
+        width: 300px;
+    }
+    .text-wrapper-37 {
+        width: 100%;
+    }
+    #service-pic-7 {
+        width: 300px;
+        height: auto;
+    }
+    #servicio-7 {
+        margin-bottom: 100px;
+    }
+    #servicio-7 h3 {
+        margin-top: 10px;
+        width: 300px;
+    }
+    #servicio-7 a {
+        margin-top: 10px;
+        width: 300px;
+    }
+    .text-wrapper-38 {
+        width: 100%;
+    }
+    #service-pic-8 {
+        width: 300px;
+        height: auto;
+    }
+    #servicio-8 {
+        margin-bottom: 100px;
+    }
+    #servicio-8 h3 {
+        margin-top: 10px;
+        width: 300px;
+    }
+    #servicio-8 a {
+        margin-top: 10px;
+        width: 300px;
+    }
+    .text-wrapper-39 {
+        width: 100%;
+    }
+    #service-pic-9 {
+        width: 300px;
+        height: auto;
+    }
+    #servicio-9 {
+        margin-bottom: 60px;
+    }
+    #servicio-9 h3 {
+        margin-top: 10px;
+        width: 300px;
+    }
+    #servicio-9 a {
+        margin-top: 10px;
+        width: 300px;
+    }
+    .custom-line {
+        width: 300px;                
+        margin-bottom: 30px;             
+    }      
+    .email-button {
+        padding: 15px 15px;
+        border-radius: 3px;
+        font-size: 15px;
+    }
+    .text-wrapper-4 {
+        font-size: 15px;
+        margin-top: 40px;
+    }
+    .spa-list li {
+        margin-bottom: 15px;
+    }
+    #footer-logo {
+        width: 170px;
+        height: auto;
+    }
+    #partner-logos {
+        gap: 20px;
+    }
+    #ContactInfo ul {
+        margin-top: 30px;
+        margin-left: 0;
+        padding: 0 20px;
+    }
+    #ContactInfo li {
+        margin-bottom: 15px;
+        height: 50px;
+    }
+    #ContactInfo img {
+        width: 50px;
+    }
+    #meguiars {
+        width: 100px;
+        height: auto;
+    }
+    #karcher {
+        width: 105px;
+        height: auto;
+    }
+    #mothers {
+        width: 105px;
+        height: auto;
+    }
+}
+@media only screen and (min-height: 401px) and (max-height: 767px) and (orientation: landscape) {
+    #test {
+        width: 180px;
+        height: auto;
+    }
+    .desktop-menu {
+        display: none;
+        visibility: hidden;
+        opacity: 0;
+        pointer-events: none;
+    }
+    #MenuBar {
+        height: 100px;
+    }
+    .dropdown-toggle {
+        display: flex;
+        align-items: center;
+        margin-right: 15px;
+    }
+    .dropdown-content {
+        top: 92px;
+        right: 0;
+        display: none;
+        flex-direction: column;
+        background-color: rgba(0, 0, 0);
+        position: absolute;
+        z-index: 1001;
+        text-align: center;
+        animation: dropdown-slide 0.3s ease-in-out forwards;
+    }
+    .dropdown-content a {
+        color: white;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        transition: transform 0.3s ease;
+    }
+    @keyframes dropdown-slide {
+        0% {
+            opacity: 0;
+            transform: translateY(-10px);
+        }
+        100% {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+    .text-wrapper {
+        margin-top: 140px;
+        font-size: 25px;
+    }
+    .text-wrapper h1 {
+        margin-bottom: 5px;
+    }
+    #movemosTXT {
+        transform: translateX(-65px);
+    }
+    #servicioTXT {
+        transform: translateX(35px);
+    }
+    #flotillaTXT {
+        transform: translateX(15px);
+    }
+    #main-web-image {
+        width: 150px;
+        transform: translateY(-155px) translateX(112px);
+    }
+    #pasion-servir {
+        transform: translateY(-70px);
+    }
+    .text-wrapper-2 {
+        font-size: 20px;
+    }
+    #wereTXT {
+        margin-bottom: 5px;
+    }
+    .sobreTexto {
+        font-size: 18px;
+        max-width: 230px;
+    }
+    #car-wash-pic {
+        width: 100%;
+        height: auto;
+    }
+    #title {
+        font-size: 20px;
+        margin-bottom: 25px;
+        height: 50px;
+        transform: translateY(-20px);
+    }
+    .text-wrapper-3 {
+        width: 100%;
+    }
+    #service-pic-1 {
+        width: 400px;
+        height: auto;
+    }
+    #servicio-1 {
+        margin-bottom: 100px;
+    }
+    #servicio-1 h3 {
+        margin-top: 10px;
+        width: 420px;
+        font-size: 20px;
+    }
+    #servicio-1 a {
+        margin-top: 10px;
+        width: 350px;
+        font-size: 18px;
+    }
+    .text-wrapper-32 {
+        width: 100%;
+    }
+    #service-pic-2 {
+        width: 400px;
+        height: auto;
+    }
+    #servicio-2 {
+        margin-bottom: 100px;
+    }
+    #servicio-2 h3 {
+        margin-top: 10px;
+        width: 400px;
+        font-size: 22px;
+    }
+    #servicio-2 a {
+        margin-top: 10px;
+        width: 350px;
+        font-size: 18px;
+    }
+    .text-wrapper-33 {
+        width: 100%;
+    }
+    #service-pic-3 {
+        width: 400px;
+        height: auto;
+    }
+    #servicio-3 {
+        margin-bottom: 100px;
+    }
+    #servicio-3 h3 {
+        margin-top: 10px;
+        width: 400px;
+        font-size: 22px;
+    }
+    #servicio-3 a {
+        margin-top: 10px;
+        width: 350px;
+        font-size: 18px;
+    }
+    .text-wrapper-34 {
+        width: 100%;
+    }
+    #service-pic-4 {
+        width: 400px;
+        height: auto;
+    }
+    #servicio-4 {
+        margin-bottom: 100px;
+    }
+    #servicio-4 h3 {
+        margin-top: 10px;
+        width: 400px;
+        font-size: 22px;
+    }
+    #servicio-4 a {
+        margin-top: 10px;
+        width: 350px;
+        font-size: 18px;
+    }
+    .text-wrapper-35 {
+        width: 100%;
+    }
+    #service-pic-5 {
+        width: 400px;
+        height: auto;
+    }
+    #servicio-5 {
+        margin-bottom: 100px;
+    }
+    #servicio-5 h3 {
+        margin-top: 10px;
+        width: 400px;
+        font-size: 22px;
+    }
+    #servicio-5 a {
+        margin-top: 10px;
+        width: 350px;
+        font-size: 18px;
+    }
+    .text-wrapper-36 {
+        width: 100%;
+    }
+    #service-pic-6 {
+        width: 400px;
+        height: auto;
+    }
+    #servicio-6 {
+        margin-bottom: 100px;
+    }
+    #servicio-6 h3 {
+        margin-top: 10px;
+        width: 400px;
+        font-size: 22px;
+    }
+    #servicio-6 a {
+        margin-top: 10px;
+        width: 350px;
+        font-size: 18px;
+    }
+    .text-wrapper-37 {
+        width: 100%;
+    }
+    #service-pic-7 {
+        width: 400px;
+        height: auto;
+    }
+    #servicio-7 {
+        margin-bottom: 100px;
+    }
+    #servicio-7 h3 {
+        margin-top: 10px;
+        width: 400px;
+        font-size: 22px;
+    }
+    #servicio-7 a {
+        margin-top: 10px;
+        width: 350px;
+        font-size: 18px;
+    }
+    .text-wrapper-38 {
+        width: 100%;
+    }
+    #service-pic-8 {
+        width: 400px;
+        height: auto;
+    }
+    #servicio-8 {
+        margin-bottom: 100px;
+    }
+    #servicio-8 h3 {
+        margin-top: 10px;
+        width: 400px;
+        font-size: 22px;
+    }
+    #servicio-8 a {
+        margin-top: 10px;
+        width: 350px;
+        font-size: 18px;
+    }
+    .text-wrapper-39 {
+        width: 100%;
+    }
+    #service-pic-9 {
+        width: 400px;
+        height: auto;
+    }
+    #servicio-9 {
+        margin-bottom: 60px;
+    }
+    #servicio-9 h3 {
+        margin-top: 10px;
+        width: 400px;
+        font-size: 22px;
+    }
+    #servicio-9 a {
+        margin-top: 10px;
+        width: 350px;
+        font-size: 18px;
+    }
+    .custom-line {
+        width: 400px;                
+        margin-bottom: 30px;             
+    }      
+    .email-button {
+        padding: 15px 15px;
+        border-radius: 3px;
+        font-size: 18px;
+    }
+    .text-wrapper-4 {
+        font-size: 20px;
+        margin-top: 60px;
+    }
+    .spa-list {
+        margin-top: 70px;
+    }
+    .spa-list li {
+        margin-bottom: 15px;
+        font-size: 20px;
+    }
+    #footer-logo {
+        width: 210px;
+        height: auto;
+    }
+    #partner-logos {
+        gap: 20px;
+    }
+    #ContactInfo ul {
+        margin-top: 30px;
+        margin-left: 0;
+        padding: 0 20px;
+    }
+    #ContactInfo li {
+        margin-bottom: 15px;
+        height: 50px;
+    }
+    #ContactInfo img {
+        width: 60px;
+    }
+    #meguiars {
+        width: 140px;
+        height: auto;
+    }
+    #karcher {
+        width: 145px;
+        height: auto;
+    }
+    #mothers {
+        width: 145px;
+        height: auto;
+    }
+}
+
+/*iPad Mini*/
+@media only screen and (min-width: 768px) and (max-width: 819px) and (orientation: portrait) {
+    #test {
+        width: 200px;
+        height: auto;
+    }
+    .desktop-menu {
+        display: none;
+        visibility: hidden;
+        opacity: 0;
+        pointer-events: none;
+    }
+    #MenuBar {
+        height: 130px;
+    }
+    .dropdown-toggle {
+        display: flex;
+        align-items: center;
+        margin-right: 25px;
+    }
+    .dropdown-content {
+        top: 120px;
+        right: 0px;
+        display: none;
+        flex-direction: column;
+        background-color: rgba(0, 0, 0);
+        position: absolute;
+        z-index: 1001;
+        text-align: center;
+        animation: dropdown-slide 0.3s ease-in-out forwards;
+    }
+    .dropdown-content a {
+        color: white;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        transition: transform 0.3s ease;
+        font-size: 20px;
+    }
+    @keyframes dropdown-slide {
+        0% {
+            opacity: 0;
+            transform: translateY(-10px);
+        }
+        100% {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+    .text-wrapper {
+        margin-top: 190px;
+        font-size: 20px;
+        font-size: 30px;
+    }
+    .text-wrapper h1 {
+        margin-bottom: 5px;
+    }
+    #movemosTXT {
+        transform: translateX(-70px);
+    }
+    #servicioTXT {
+        transform: translateX(50px);
+    }
+    #flotillaTXT {
+        transform: translateX(20px);
+    }
+    #main-web-image {
+        width: 175px;
+        transform: translateY(-177px) translateX(140px);
+    }
+    #pasion-servir {
+        transform: translateY(-85px);
+    }
+    .text-wrapper-2 {
+        font-size: 25px;
+    }
+    #wereTXT {
+        margin-bottom: 5px;
+    }
+    .sobreTexto {
+        font-size: 20px;
+        max-width: 290px;
+        transform: translateY(0px);
+    }
+    #car-wash-pic {
+        width: 100%;
+        height: auto;
+    }
+    #title {
+        font-size: 25px;
+        transform: translateY(-40px);
+        height: 50px;
+        margin-bottom: 30px;
+    }
+    .text-wrapper-3 {
+        width: 100%;
+    }
+    #service-pic-1 {
+        width: 400px;
+        height: auto;
+    }
+    #servicio-1 {
+        margin-bottom: 100px;
+    }
+    #servicio-1 h3 {
+        margin-top: 10px;
+        width: 450px;
+        font-size: 22px;
+    }
+    #servicio-1 a {
+        margin-top: 10px;
+        width: 350px;
+        font-size: 20px;
+    }
+    .text-wrapper-32 {
+        width: 100%;
+    }
+    #service-pic-2 {
+        width: 400px;
+        height: auto;
+    }
+    #servicio-2 {
+        margin-bottom: 100px;
+    }
+    #servicio-2 h3 {
+        margin-top: 10px;
+        width: 450px;
+        font-size: 22px;
+    }
+    #servicio-2 a {
+        margin-top: 10px;
+        width: 350px;
+        font-size: 20px;
+    }
+    .text-wrapper-33 {
+        width: 100%;
+    }
+    #service-pic-3 {
+        width: 400px;
+        height: auto;
+    }
+    #servicio-3 {
+        margin-bottom: 100px;
+    }
+    #servicio-3 h3 {
+        margin-top: 10px;
+        width: 420px;
+        font-size: 22px;
+    }
+    #servicio-3 a {
+        margin-top: 10px;
+        width: 350px;
+        font-size: 20px;
+    }
+    .text-wrapper-34 {
+        width: 100%;
+    }
+    #service-pic-4 {
+        width: 400px;
+        height: auto;
+    }
+    #servicio-4 {
+        margin-bottom: 100px;
+    }
+    #servicio-4 h3 {
+        margin-top: 10px;
+        width: 420px;
+        font-size: 22px;
+    }
+    #servicio-4 a {
+        margin-top: 10px;
+        width: 350px;
+        font-size: 20px
+    }
+    .text-wrapper-35 {
+        width: 100%;
+    }
+    #service-pic-5 {
+        width: 400px;
+        height: auto;
+    }
+    #servicio-5 {
+        margin-bottom: 100px;
+    }
+    #servicio-5 h3 {
+        margin-top: 10px;
+        width: 420px;
+        font-size: 22px;
+    }
+    #servicio-5 a {
+        margin-top: 10px;
+        width: 350px;
+        font-size: 20px;
+    }
+    .text-wrapper-36 {
+        width: 100%;
+    }
+    #service-pic-6 {
+        width: 400px;
+        height: auto;
+    }
+    #servicio-6 {
+        margin-bottom: 100px;
+    }
+    #servicio-6 h3 {
+        margin-top: 10px;
+        width: 420px;
+        font-size: 22px;
+    }
+    #servicio-6 a {
+        margin-top: 10px;
+        width: 350px;
+        font-size: 20px;
+    }
+    .text-wrapper-37 {
+        width: 100%;
+    }
+    #service-pic-7 {
+        width: 400px;
+        height: auto;
+    }
+    #servicio-7 {
+        margin-bottom: 100px;
+    }
+    #servicio-7 h3 {
+        margin-top: 10px;
+        width: 420px;
+        font-size: 22px;
+    }
+    #servicio-7 a {
+        margin-top: 10px;
+        width: 350px;
+        font-size: 20px;
+    }
+    .text-wrapper-38 {
+        width: 100%;
+    }
+    #service-pic-8 {
+        width: 400px;
+        height: auto;
+    }
+    #servicio-8 {
+        margin-bottom: 100px;
+    }
+    #servicio-8 h3 {
+        margin-top: 10px;
+        width: 420px;
+        font-size: 22px;
+    }
+    #servicio-8 a {
+        margin-top: 10px;
+        width: 350px;
+        font-size: 20px;
+    }
+    .text-wrapper-39 {
+        width: 100%;
+    }
+    #service-pic-9 {
+        width: 400px;
+        height: auto;
+    }
+    #servicio-9 {
+        margin-bottom: 60px;
+    }
+    #servicio-9 h3 {
+        margin-top: 10px;
+        width: 420px;
+        font-size: 22px;
+    }
+    #servicio-9 a {
+        margin-top: 10px;
+        width: 350px;
+        font-size: 20px;
+    }
+    .custom-line {
+        width: 400px;                
+        margin-bottom: 30px;             
+    }      
+    .email-button {
+        padding: 20px 20px;
+        border-radius: 3px;
+        font-size: 20px;
+        margin-bottom: 60px;
+    }
+    #servicio-spa {
+        margin-bottom: 190px;
+    }
+    .text-wrapper-4 {
+        font-size: 25px;
+        margin-top: 40px;
+        margin-bottom: 100px;
+    }
+    .spa-list li {
+        margin-bottom: 35px;
+        font-size: 25px;
+    }
+    #footer-logo {
+        width: 230px;
+        height: auto;
+    }
+    #partner-logos {
+        gap: 20px;
+    }
+    #ContactInfo ul {
+        margin-top: 30px;
+        margin-left: 0;
+        padding: 0 20px;
+    }
+    #ContactInfo li {
+        margin-bottom: 35px;
+        height: 50px;
+    }
+    #ContactInfo img {
+        width: 70px;
+    }
+    #meguiars {
+        width: 190px;
+        height: auto;
+    }
+    #karcher {
+        width: 195px;
+        height: auto;
+    }
+    #mothers {
+        width: 195px;
+        height: auto;
+    }
+}
+@media only screen and (min-height: 768px) and (max-height: 819px) and (orientation: landscape) {
+    #test {
+        width: 290px;
+        height: auto;
+        margin-left: 10px;
+
+    }
+    .desktop-menu {
+        display: none;
+        visibility: hidden;
+        opacity: 0;
+        pointer-events: none;
+    }
+    #MenuBar {
+        height: 190px;
+    }
+    .dropdown-toggle {
+        display: flex;
+        align-items: center;
+        margin-right: 25px;
+    }
+    .dropdown-content {
+        top: 190px;
+        right: 0px;
+        display: none;
+        flex-direction: column;
+        background-color: rgba(0, 0, 0);
+        position: absolute;
+        z-index: 1001;
+        text-align: center;
+        animation: dropdown-slide 0.3s ease-in-out forwards;
+    }
+    .dropdown-content a {
+        color: white;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        transition: transform 0.3s ease;
+        font-size: 28px;
+    }
+    @keyframes dropdown-slide {
+        0% {
+            opacity: 0;
+            transform: translateY(-10px);
+        }
+        100% {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+    .text-wrapper {
+        margin-top: 260px;
+        font-size: 45px;
+    }
+    .text-wrapper h1 {
+        margin-bottom: 5px;
+    }
+    #movemosTXT {
+        transform: translateX(-80px);
+    }
+    #servicioTXT {
+        transform: translateX(90px);
+    }
+    #flotillaTXT {
+        transform: translateX(50px);
+    }
+    #main-web-image {
+        width: 250px;
+        transform: translateY(-250px) translateX(230px);
+    }
+    #pasion-servir {
+        transform: translateY(-85px);
+    }
+    .text-wrapper-2 {
+        font-size: 35px;
+    }
+    #wereTXT {
+        margin-bottom: 5px;
+    }
+    .sobreTexto {
+        font-size: 30px;
+        max-width: 480px;
+        transform: translateY(0px);
+    }
+    #car-wash-pic {
+        width: 100%;
+        height: auto;
+    }
+    #title {
+        font-size: 35px;
+        transform: translateY(-10px);
+        height: 50px;
+        margin-bottom: 100px;
+    }
+    .text-wrapper-3 {
+        width: 100%;
+    }
+    #service-pic-1 {
+        width: 600px;
+        height: auto;
+    }
+    #servicio-1 {
+        margin-bottom: 100px;
+    }
+    #servicio-1 h3 {
+        margin-top: 10px;
+        width: 620px;
+        font-size: 30px;
+    }
+    #servicio-1 a {
+        margin-top: 10px;
+        width: 560px;
+        font-size: 28px;
+    }
+    .text-wrapper-32 {
+        width: 100%;
+    }
+    #service-pic-2 {
+        width: 600px;
+        height: auto;
+    }
+    #servicio-2 {
+        margin-bottom: 100px;
+    }
+    #servicio-2 h3 {
+        margin-top: 10px;
+        width: 620px;
+        font-size: 30px;
+    }
+    #servicio-2 a {
+        margin-top: 10px;
+        width: 560px;
+        font-size: 28px;
+    }
+    .text-wrapper-33 {
+        width: 100%;
+    }
+    #service-pic-3 {
+        width: 600px;
+        height: auto;
+    }
+    #servicio-3 {
+        margin-bottom: 100px;
+    }
+    #servicio-3 h3 {
+        margin-top: 10px;
+        width: 620px;
+        font-size: 30px;
+    }
+    #servicio-3 a {
+        margin-top: 10px;
+        width: 560px;
+        font-size: 28px;
+    }
+    .text-wrapper-34 {
+        width: 100%;
+    }
+    #service-pic-4 {
+        width: 600px;
+        height: auto;
+    }
+    #servicio-4 {
+        margin-bottom: 100px;
+    }
+    #servicio-4 h3 {
+        margin-top: 10px;
+        width: 620px;
+        font-size: 30px;
+    }
+    #servicio-4 a {
+        margin-top: 10px;
+        width: 570px;
+        font-size: 28px
+    }
+    .text-wrapper-35 {
+        width: 100%;
+    }
+    #service-pic-5 {
+        width: 600px;
+        height: auto;
+    }
+    #servicio-5 {
+        margin-bottom: 100px;
+    }
+    #servicio-5 h3 {
+        margin-top: 10px;
+        width: 620px;
+        font-size: 30px;
+    }
+    #servicio-5 a {
+        margin-top: 10px;
+        width: 560px;
+        font-size: 28px;
+    }
+    .text-wrapper-36 {
+        width: 100%;
+    }
+    #service-pic-6 {
+        width: 600px;
+        height: auto;
+    }
+    #servicio-6 {
+        margin-bottom: 100px;
+    }
+    #servicio-6 h3 {
+        margin-top: 10px;
+        width: 620px;
+        font-size: 30px;
+    }
+    #servicio-6 a {
+        margin-top: 10px;
+        width: 560px;
+        font-size: 28px;
+    }
+    .text-wrapper-37 {
+        width: 100%;
+    }
+    #service-pic-7 {
+        width: 600px;
+        height: auto;
+    }
+    #servicio-7 {
+        margin-bottom: 100px;
+    }
+    #servicio-7 h3 {
+        margin-top: 10px;
+        width: 620px;
+        font-size: 30px;
+    }
+    #servicio-7 a {
+        margin-top: 10px;
+        width: 560px;
+        font-size: 28px;
+    }
+    .text-wrapper-38 {
+        width: 100%;
+    }
+    #service-pic-8 {
+        width: 600px;
+        height: auto;
+    }
+    #servicio-8 {
+        margin-bottom: 100px;
+    }
+    #servicio-8 h3 {
+        margin-top: 10px;
+        width: 620px;
+        font-size: 30px;
+    }
+    #servicio-8 a {
+        margin-top: 10px;
+        width: 560px;
+        font-size: 28px;
+    }
+    .text-wrapper-39 {
+        width: 100%;
+    }
+    #service-pic-9 {
+        width: 600px;
+        height: auto;
+    }
+    #servicio-9 {
+        margin-bottom: 60px;
+    }
+    #servicio-9 h3 {
+        margin-top: 10px;
+        width: 620px;
+        font-size: 30px;
+    }
+    #servicio-9 a {
+        margin-top: 10px;
+        width: 520px;
+        font-size: 28px;
+    }
+    .custom-line {
+        width: 600px;                
+        margin-bottom: 30px;             
+    }      
+    .email-button {
+        padding: 20px 20px;
+        border-radius: 3px;
+        font-size: 20px;
+        margin-bottom: 60px;
+    }
+    #servicio-spa {
+        margin-bottom: 190px;
+    }
+    .text-wrapper-4 {
+        font-size: 25px;
+        margin-top: 40px;
+        margin-bottom: 100px;
+    }
+    .spa-list li {
+        margin-bottom: 35px;
+        font-size: 25px;
+    }
+    #footer-logo {
+        width: 230px;
+        height: auto;
+    }
+    #partner-logos {
+        gap: 20px;
+    }
+    #ContactInfo ul {
+        margin-top: 30px;
+        margin-left: 0;
+        padding: 0 20px;
+    }
+    #ContactInfo li {
+        margin-bottom: 35px;
+        height: 50px;
+    }
+    #ContactInfo img {
+        width: 70px;
+    }
+    #meguiars {
+        width: 190px;
+        height: auto;
+    }
+    #karcher {
+        width: 195px;
+        height: auto;
+    }
+    #mothers {
+        width: 195px;
+        height: auto;
+    }
+}
+
+/*iPad Air*/
+@media only screen and (min-width: 820px) and (max-width: 1023px) and (orientation: portrait) {
+    #test {
+        width: 200px;
+        height: auto;
+    }
+    .desktop-menu {
+        display: none;
+        visibility: hidden;
+        opacity: 0;
+        pointer-events: none;
+    }
+    #MenuBar {
+        height: 130px;
+    }
+    .dropdown-toggle {
+        display: flex;
+        align-items: center;
+        margin-right: 25px;
+    }
+    .dropdown-content {
+        top: 120px;
+        right: 0px;
+        display: none;
+        flex-direction: column;
+        background-color: rgba(0, 0, 0);
+        position: absolute;
+        z-index: 1001;
+        text-align: center;
+        animation: dropdown-slide 0.3s ease-in-out forwards;
+    }
+    .dropdown-content a {
+        color: white;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        transition: transform 0.3s ease;
+        font-size: 20px;
+    }
+    @keyframes dropdown-slide {
+        0% {
+            opacity: 0;
+            transform: translateY(-10px);
+        }
+        100% {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+    .text-wrapper {
+        margin-top: 190px;
+        font-size: 20px;
+        font-size: 30px;
+    }
+    .text-wrapper h1 {
+        margin-bottom: 5px;
+    }
+    #movemosTXT {
+        transform: translateX(-70px);
+    }
+    #servicioTXT {
+        transform: translateX(50px);
+    }
+    #flotillaTXT {
+        transform: translateX(20px);
+    }
+    #main-web-image {
+        width: 175px;
+        transform: translateY(-177px) translateX(140px);
+    }
+    #pasion-servir {
+        transform: translateY(-85px);
+    }
+    .text-wrapper-2 {
+        font-size: 25px;
+    }
+    #wereTXT {
+        margin-bottom: 5px;
+    }
+    .sobreTexto {
+        font-size: 20px;
+        max-width: 290px;
+        transform: translateY(0px);
+    }
+    #car-wash-pic {
+        width: 100%;
+        height: auto;
+    }
+    #title {
+        font-size: 25px;
+        transform: translateY(-40px);
+        height: 50px;
+        margin-bottom: 30px;
+    }
+    .text-wrapper-3 {
+        width: 100%;
+    }
+    #service-pic-1 {
+        width: 400px;
+        height: auto;
+    }
+    #servicio-1 {
+        margin-bottom: 100px;
+    }
+    #servicio-1 h3 {
+        margin-top: 10px;
+        width: 450px;
+        font-size: 22px;
+    }
+    #servicio-1 a {
+        margin-top: 10px;
+        width: 350px;
+        font-size: 20px;
+    }
+    .text-wrapper-32 {
+        width: 100%;
+    }
+    #service-pic-2 {
+        width: 400px;
+        height: auto;
+    }
+    #servicio-2 {
+        margin-bottom: 100px;
+    }
+    #servicio-2 h3 {
+        margin-top: 10px;
+        width: 450px;
+        font-size: 22px;
+    }
+    #servicio-2 a {
+        margin-top: 10px;
+        width: 350px;
+        font-size: 20px;
+    }
+    .text-wrapper-33 {
+        width: 100%;
+    }
+    #service-pic-3 {
+        width: 400px;
+        height: auto;
+    }
+    #servicio-3 {
+        margin-bottom: 100px;
+    }
+    #servicio-3 h3 {
+        margin-top: 10px;
+        width: 420px;
+        font-size: 22px;
+    }
+    #servicio-3 a {
+        margin-top: 10px;
+        width: 350px;
+        font-size: 20px;
+    }
+    .text-wrapper-34 {
+        width: 100%;
+    }
+    #service-pic-4 {
+        width: 400px;
+        height: auto;
+    }
+    #servicio-4 {
+        margin-bottom: 100px;
+    }
+    #servicio-4 h3 {
+        margin-top: 10px;
+        width: 420px;
+        font-size: 22px;
+    }
+    #servicio-4 a {
+        margin-top: 10px;
+        width: 350px;
+        font-size: 20px
+    }
+    .text-wrapper-35 {
+        width: 100%;
+    }
+    #service-pic-5 {
+        width: 400px;
+        height: auto;
+    }
+    #servicio-5 {
+        margin-bottom: 100px;
+    }
+    #servicio-5 h3 {
+        margin-top: 10px;
+        width: 420px;
+        font-size: 22px;
+    }
+    #servicio-5 a {
+        margin-top: 10px;
+        width: 350px;
+        font-size: 20px;
+    }
+    .text-wrapper-36 {
+        width: 100%;
+    }
+    #service-pic-6 {
+        width: 400px;
+        height: auto;
+    }
+    #servicio-6 {
+        margin-bottom: 100px;
+    }
+    #servicio-6 h3 {
+        margin-top: 10px;
+        width: 420px;
+        font-size: 22px;
+    }
+    #servicio-6 a {
+        margin-top: 10px;
+        width: 350px;
+        font-size: 20px;
+    }
+    .text-wrapper-37 {
+        width: 100%;
+    }
+    #service-pic-7 {
+        width: 400px;
+        height: auto;
+    }
+    #servicio-7 {
+        margin-bottom: 100px;
+    }
+    #servicio-7 h3 {
+        margin-top: 10px;
+        width: 420px;
+        font-size: 22px;
+    }
+    #servicio-7 a {
+        margin-top: 10px;
+        width: 350px;
+        font-size: 20px;
+    }
+    .text-wrapper-38 {
+        width: 100%;
+    }
+    #service-pic-8 {
+        width: 400px;
+        height: auto;
+    }
+    #servicio-8 {
+        margin-bottom: 100px;
+    }
+    #servicio-8 h3 {
+        margin-top: 10px;
+        width: 420px;
+        font-size: 22px;
+    }
+    #servicio-8 a {
+        margin-top: 10px;
+        width: 350px;
+        font-size: 20px;
+    }
+    .text-wrapper-39 {
+        width: 100%;
+    }
+    #service-pic-9 {
+        width: 400px;
+        height: auto;
+    }
+    #servicio-9 {
+        margin-bottom: 60px;
+    }
+    #servicio-9 h3 {
+        margin-top: 10px;
+        width: 420px;
+        font-size: 22px;
+    }
+    #servicio-9 a {
+        margin-top: 10px;
+        width: 350px;
+        font-size: 20px;
+    }
+    .custom-line {
+        width: 400px;                
+        margin-bottom: 30px;             
+    }      
+    .email-button {
+        padding: 20px 20px;
+        border-radius: 3px;
+        font-size: 20px;
+        margin-bottom: 60px;
+    }
+    #servicio-spa {
+        margin-bottom: 190px;
+    }
+    .text-wrapper-4 {
+        font-size: 25px;
+        margin-top: 40px;
+        margin-bottom: 100px;
+    }
+    .spa-list li {
+        margin-bottom: 35px;
+        font-size: 25px;
+    }
+    #footer-logo {
+        width: 230px;
+        height: auto;
+    }
+    #partner-logos {
+        gap: 20px;
+    }
+    #ContactInfo ul {
+        margin-top: 30px;
+        margin-left: 0;
+        padding: 0 20px;
+    }
+    #ContactInfo li {
+        margin-bottom: 35px;
+        height: 50px;
+    }
+    #ContactInfo img {
+        width: 70px;
+    }
+    #meguiars {
+        width: 190px;
+        height: auto;
+    }
+    #karcher {
+        width: 195px;
+        height: auto;
+    }
+    #mothers {
+        width: 195px;
+        height: auto;
+    }
+}
+@media only screen and (min-height: 820px) and (max-height: 1023px) and (orientation: landscape) {
+    #test {
+        width: 290px;
+        height: auto;
+        margin-left: 10px;
+
+    }
+    .desktop-menu {
+        display: none;
+        visibility: hidden;
+        opacity: 0;
+        pointer-events: none;
+    }
+    #MenuBar {
+        height: 190px;
+    }
+    .dropdown-toggle {
+        display: flex;
+        align-items: center;
+        margin-right: 25px;
+    }
+    .dropdown-content {
+        top: 190px;
+        right: 0px;
+        display: none;
+        flex-direction: column;
+        background-color: rgba(0, 0, 0);
+        position: absolute;
+        z-index: 1001;
+        text-align: center;
+        animation: dropdown-slide 0.3s ease-in-out forwards;
+    }
+    .dropdown-content a {
+        color: white;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        transition: transform 0.3s ease;
+        font-size: 28px;
+    }
+    @keyframes dropdown-slide {
+        0% {
+            opacity: 0;
+            transform: translateY(-10px);
+        }
+        100% {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+    .text-wrapper {
+        margin-top: 260px;
+        font-size: 45px;
+    }
+    .text-wrapper h1 {
+        margin-bottom: 5px;
+    }
+    #movemosTXT {
+        transform: translateX(-80px);
+    }
+    #servicioTXT {
+        transform: translateX(90px);
+    }
+    #flotillaTXT {
+        transform: translateX(50px);
+    }
+    #main-web-image {
+        width: 250px;
+        transform: translateY(-250px) translateX(230px);
+    }
+    #pasion-servir {
+        transform: translateY(-85px);
+    }
+    .text-wrapper-2 {
+        font-size: 35px;
+    }
+    #wereTXT {
+        margin-bottom: 5px;
+    }
+    .sobreTexto {
+        font-size: 30px;
+        max-width: 480px;
+        transform: translateY(0px);
+    }
+    #car-wash-pic {
+        width: 100%;
+        height: auto;
+    }
+    #title {
+        font-size: 35px;
+        transform: translateY(-10px);
+        height: 50px;
+        margin-bottom: 100px;
+    }
+    .text-wrapper-3 {
+        width: 100%;
+    }
+    #service-pic-1 {
+        width: 600px;
+        height: auto;
+    }
+    #servicio-1 {
+        margin-bottom: 100px;
+    }
+    #servicio-1 h3 {
+        margin-top: 10px;
+        width: 620px;
+        font-size: 30px;
+    }
+    #servicio-1 a {
+        margin-top: 10px;
+        width: 560px;
+        font-size: 28px;
+    }
+    .text-wrapper-32 {
+        width: 100%;
+    }
+    #service-pic-2 {
+        width: 600px;
+        height: auto;
+    }
+    #servicio-2 {
+        margin-bottom: 100px;
+    }
+    #servicio-2 h3 {
+        margin-top: 10px;
+        width: 620px;
+        font-size: 30px;
+    }
+    #servicio-2 a {
+        margin-top: 10px;
+        width: 560px;
+        font-size: 28px;
+    }
+    .text-wrapper-33 {
+        width: 100%;
+    }
+    #service-pic-3 {
+        width: 600px;
+        height: auto;
+    }
+    #servicio-3 {
+        margin-bottom: 100px;
+    }
+    #servicio-3 h3 {
+        margin-top: 10px;
+        width: 620px;
+        font-size: 30px;
+    }
+    #servicio-3 a {
+        margin-top: 10px;
+        width: 560px;
+        font-size: 28px;
+    }
+    .text-wrapper-34 {
+        width: 100%;
+    }
+    #service-pic-4 {
+        width: 600px;
+        height: auto;
+    }
+    #servicio-4 {
+        margin-bottom: 100px;
+    }
+    #servicio-4 h3 {
+        margin-top: 10px;
+        width: 620px;
+        font-size: 30px;
+    }
+    #servicio-4 a {
+        margin-top: 10px;
+        width: 570px;
+        font-size: 28px
+    }
+    .text-wrapper-35 {
+        width: 100%;
+    }
+    #service-pic-5 {
+        width: 600px;
+        height: auto;
+    }
+    #servicio-5 {
+        margin-bottom: 100px;
+    }
+    #servicio-5 h3 {
+        margin-top: 10px;
+        width: 620px;
+        font-size: 30px;
+    }
+    #servicio-5 a {
+        margin-top: 10px;
+        width: 560px;
+        font-size: 28px;
+    }
+    .text-wrapper-36 {
+        width: 100%;
+    }
+    #service-pic-6 {
+        width: 600px;
+        height: auto;
+    }
+    #servicio-6 {
+        margin-bottom: 100px;
+    }
+    #servicio-6 h3 {
+        margin-top: 10px;
+        width: 620px;
+        font-size: 30px;
+    }
+    #servicio-6 a {
+        margin-top: 10px;
+        width: 560px;
+        font-size: 28px;
+    }
+    .text-wrapper-37 {
+        width: 100%;
+    }
+    #service-pic-7 {
+        width: 600px;
+        height: auto;
+    }
+    #servicio-7 {
+        margin-bottom: 100px;
+    }
+    #servicio-7 h3 {
+        margin-top: 10px;
+        width: 620px;
+        font-size: 30px;
+    }
+    #servicio-7 a {
+        margin-top: 10px;
+        width: 560px;
+        font-size: 28px;
+    }
+    .text-wrapper-38 {
+        width: 100%;
+    }
+    #service-pic-8 {
+        width: 600px;
+        height: auto;
+    }
+    #servicio-8 {
+        margin-bottom: 100px;
+    }
+    #servicio-8 h3 {
+        margin-top: 10px;
+        width: 620px;
+        font-size: 30px;
+    }
+    #servicio-8 a {
+        margin-top: 10px;
+        width: 560px;
+        font-size: 28px;
+    }
+    .text-wrapper-39 {
+        width: 100%;
+    }
+    #service-pic-9 {
+        width: 600px;
+        height: auto;
+    }
+    #servicio-9 {
+        margin-bottom: 60px;
+    }
+    #servicio-9 h3 {
+        margin-top: 10px;
+        width: 620px;
+        font-size: 30px;
+    }
+    #servicio-9 a {
+        margin-top: 10px;
+        width: 520px;
+        font-size: 28px;
+    }
+    .custom-line {
+        width: 600px;                
+        margin-bottom: 30px;             
+    }      
+    .email-button {
+        padding: 20px 20px;
+        border-radius: 3px;
+        font-size: 20px;
+        margin-bottom: 60px;
+    }
+    #servicio-spa {
+        margin-bottom: 190px;
+    }
+    .text-wrapper-4 {
+        font-size: 25px;
+        margin-top: 40px;
+        margin-bottom: 100px;
+    }
+    .spa-list li {
+        margin-bottom: 35px;
+        font-size: 25px;
+    }
+    #footer-logo {
+        width: 230px;
+        height: auto;
+    }
+    #partner-logos {
+        gap: 20px;
+    }
+    #ContactInfo ul {
+        margin-top: 30px;
+        margin-left: 0;
+        padding: 0 20px;
+    }
+    #ContactInfo li {
+        margin-bottom: 35px;
+        height: 50px;
+    }
+    #ContactInfo img {
+        width: 70px;
+    }
+    #meguiars {
+        width: 190px;
+        height: auto;
+    }
+    #karcher {
+        width: 195px;
+        height: auto;
+    }
+    #mothers {
+        width: 195px;
+        height: auto;
+    }
+}
+
+/*iPad Pro*/
+@media only screen and (min-width: 1024px) and (max-width: 1366px) and (orientation: portrait) {
+    #test {
+        width: 200px;
+        height: auto;
+    }
+    .desktop-menu {
+        display: none;
+        visibility: hidden;
+        opacity: 0;
+        pointer-events: none;
+    }
+    #MenuBar {
+        height: 130px;
+    }
+    .dropdown-toggle {
+        display: flex;
+        align-items: center;
+        margin-right: 25px;
+    }
+    .dropdown-content {
+        top: 120px;
+        right: 0px;
+        display: none;
+        flex-direction: column;
+        background-color: rgba(0, 0, 0);
+        position: absolute;
+        z-index: 1001;
+        text-align: center;
+        animation: dropdown-slide 0.3s ease-in-out forwards;
+    }
+    .dropdown-content a {
+        color: white;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        transition: transform 0.3s ease;
+        font-size: 20px;
+    }
+    @keyframes dropdown-slide {
+        0% {
+            opacity: 0;
+            transform: translateY(-10px);
+        }
+        100% {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+    .text-wrapper {
+        margin-top: 190px;
+        font-size: 20px;
+        font-size: 30px;
+    }
+    .text-wrapper h1 {
+        margin-bottom: 5px;
+    }
+    #movemosTXT {
+        transform: translateX(-70px);
+    }
+    #servicioTXT {
+        transform: translateX(50px);
+    }
+    #flotillaTXT {
+        transform: translateX(20px);
+    }
+    #main-web-image {
+        width: 175px;
+        transform: translateY(-177px) translateX(140px);
+    }
+    #pasion-servir {
+        transform: translateY(-85px);
+    }
+    .text-wrapper-2 {
+        font-size: 25px;
+    }
+    #wereTXT {
+        margin-bottom: 5px;
+    }
+    .sobreTexto {
+        font-size: 20px;
+        max-width: 290px;
+        transform: translateY(0px);
+    }
+    #car-wash-pic {
+        width: 100%;
+        height: auto;
+    }
+    #title {
+        font-size: 25px;
+        transform: translateY(10px);
+        height: 50px;
+        margin-bottom: 90px;
+    }
+    .text-wrapper-3 {
+        width: 100%;
+    }
+    #service-pic-1 {
+        width: 400px;
+        height: auto;
+    }
+    #servicio-1 {
+        margin-bottom: 100px;
+    }
+    #servicio-1 h3 {
+        margin-top: 10px;
+        width: 450px;
+        font-size: 22px;
+    }
+    #servicio-1 a {
+        margin-top: 10px;
+        width: 350px;
+        font-size: 20px;
+    }
+    .text-wrapper-32 {
+        width: 100%;
+    }
+    #service-pic-2 {
+        width: 400px;
+        height: auto;
+    }
+    #servicio-2 {
+        margin-bottom: 100px;
+    }
+    #servicio-2 h3 {
+        margin-top: 10px;
+        width: 450px;
+        font-size: 22px;
+    }
+    #servicio-2 a {
+        margin-top: 10px;
+        width: 350px;
+        font-size: 20px;
+    }
+    .text-wrapper-33 {
+        width: 100%;
+    }
+    #service-pic-3 {
+        width: 400px;
+        height: auto;
+    }
+    #servicio-3 {
+        margin-bottom: 100px;
+    }
+    #servicio-3 h3 {
+        margin-top: 10px;
+        width: 420px;
+        font-size: 22px;
+    }
+    #servicio-3 a {
+        margin-top: 10px;
+        width: 350px;
+        font-size: 20px;
+    }
+    .text-wrapper-34 {
+        width: 100%;
+    }
+    #service-pic-4 {
+        width: 400px;
+        height: auto;
+    }
+    #servicio-4 {
+        margin-bottom: 100px;
+    }
+    #servicio-4 h3 {
+        margin-top: 10px;
+        width: 420px;
+        font-size: 22px;
+    }
+    #servicio-4 a {
+        margin-top: 10px;
+        width: 350px;
+        font-size: 20px
+    }
+    .text-wrapper-35 {
+        width: 100%;
+    }
+    #service-pic-5 {
+        width: 400px;
+        height: auto;
+    }
+    #servicio-5 {
+        margin-bottom: 100px;
+    }
+    #servicio-5 h3 {
+        margin-top: 10px;
+        width: 420px;
+        font-size: 22px;
+    }
+    #servicio-5 a {
+        margin-top: 10px;
+        width: 350px;
+        font-size: 20px;
+    }
+    .text-wrapper-36 {
+        width: 100%;
+    }
+    #service-pic-6 {
+        width: 400px;
+        height: auto;
+    }
+    #servicio-6 {
+        margin-bottom: 100px;
+    }
+    #servicio-6 h3 {
+        margin-top: 10px;
+        width: 420px;
+        font-size: 22px;
+    }
+    #servicio-6 a {
+        margin-top: 10px;
+        width: 350px;
+        font-size: 20px;
+    }
+    .text-wrapper-37 {
+        width: 100%;
+    }
+    #service-pic-7 {
+        width: 400px;
+        height: auto;
+    }
+    #servicio-7 {
+        margin-bottom: 100px;
+    }
+    #servicio-7 h3 {
+        margin-top: 10px;
+        width: 420px;
+        font-size: 22px;
+    }
+    #servicio-7 a {
+        margin-top: 10px;
+        width: 350px;
+        font-size: 20px;
+    }
+    .text-wrapper-38 {
+        width: 100%;
+    }
+    #service-pic-8 {
+        width: 400px;
+        height: auto;
+    }
+    #servicio-8 {
+        margin-bottom: 100px;
+    }
+    #servicio-8 h3 {
+        margin-top: 10px;
+        width: 420px;
+        font-size: 22px;
+    }
+    #servicio-8 a {
+        margin-top: 10px;
+        width: 350px;
+        font-size: 20px;
+    }
+    .text-wrapper-39 {
+        width: 100%;
+    }
+    #service-pic-9 {
+        width: 400px;
+        height: auto;
+    }
+    #servicio-9 {
+        margin-bottom: 60px;
+    }
+    #servicio-9 h3 {
+        margin-top: 10px;
+        width: 420px;
+        font-size: 22px;
+    }
+    #servicio-9 a {
+        margin-top: 10px;
+        width: 350px;
+        font-size: 20px;
+    }
+    .custom-line {
+        width: 400px;                
+        margin-bottom: 30px;             
+    }      
+    .email-button {
+        padding: 20px 20px;
+        border-radius: 3px;
+        font-size: 20px;
+        margin-bottom: 60px;
+    }
+    #servicio-spa {
+        margin-bottom: 190px;
+    }
+    .text-wrapper-4 {
+        font-size: 25px;
+        margin-top: 40px;
+        margin-bottom: 100px;
+    }
+    .spa-list li {
+        margin-bottom: 35px;
+        font-size: 25px;
+    }
+    #footer-logo {
+        width: 230px;
+        height: auto;
+    }
+    #partner-logos {
+        gap: 20px;
+    }
+    #ContactInfo ul {
+        margin-top: 30px;
+        margin-left: 0;
+        padding: 0 20px;
+    }
+    #ContactInfo li {
+        margin-bottom: 35px;
+        height: 50px;
+    }
+    #ContactInfo img {
+        width: 70px;
+    }
+    #meguiars {
+        width: 190px;
+        height: auto;
+    }
+    #karcher {
+        width: 195px;
+        height: auto;
+    }
+    #mothers {
+        width: 195px;
+        height: auto;
+    }
+}
+@media only screen and (min-height: 1024px) and (max-height: 1366px) and (orientation: landscape) {
+    #test {
+        width: 290px;
+        height: auto;
+        margin-left: 10px;
+
+    }
+    .desktop-menu {
+        display: none;
+        visibility: hidden;
+        opacity: 0;
+        pointer-events: none;
+    }
+    #MenuBar {
+        height: 190px;
+    }
+    .dropdown-toggle {
+        display: flex;
+        align-items: center;
+        margin-right: 25px;
+    }
+    .dropdown-content {
+        top: 190px;
+        right: 0px;
+        display: none;
+        flex-direction: column;
+        background-color: rgba(0, 0, 0);
+        position: absolute;
+        z-index: 1001;
+        text-align: center;
+        animation: dropdown-slide 0.3s ease-in-out forwards;
+    }
+    .dropdown-content a {
+        color: white;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        transition: transform 0.3s ease;
+        font-size: 28px;
+    }
+    @keyframes dropdown-slide {
+        0% {
+            opacity: 0;
+            transform: translateY(-10px);
+        }
+        100% {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+    .text-wrapper {
+        margin-top: 260px;
+        font-size: 45px;
+    }
+    .text-wrapper h1 {
+        margin-bottom: 5px;
+    }
+    #movemosTXT {
+        transform: translateX(-80px);
+    }
+    #servicioTXT {
+        transform: translateX(90px);
+    }
+    #flotillaTXT {
+        transform: translateX(50px);
+    }
+    #main-web-image {
+        width: 250px;
+        transform: translateY(-250px) translateX(230px);
+    }
+    #pasion-servir {
+        transform: translateY(-85px);
+    }
+    .text-wrapper-2 {
+        font-size: 35px;
+    }
+    #wereTXT {
+        margin-bottom: 5px;
+    }
+    .sobreTexto {
+        font-size: 30px;
+        max-width: 480px;
+        transform: translateY(0px);
+    }
+    #car-wash-pic {
+        width: 100%;
+        height: auto;
+    }
+    #title {
+        font-size: 35px;
+        transform: translateY(50px);
+        height: 50px;
+        margin-bottom: 160px;
+    }
+    .text-wrapper-3 {
+        width: 100%;
+    }
+    #service-pic-1 {
+        width: 600px;
+        height: auto;
+    }
+    #servicio-1 {
+        margin-bottom: 100px;
+    }
+    #servicio-1 h3 {
+        margin-top: 10px;
+        width: 620px;
+        font-size: 30px;
+    }
+    #servicio-1 a {
+        margin-top: 10px;
+        width: 560px;
+        font-size: 28px;
+    }
+    .text-wrapper-32 {
+        width: 100%;
+    }
+    #service-pic-2 {
+        width: 600px;
+        height: auto;
+    }
+    #servicio-2 {
+        margin-bottom: 100px;
+    }
+    #servicio-2 h3 {
+        margin-top: 10px;
+        width: 620px;
+        font-size: 30px;
+    }
+    #servicio-2 a {
+        margin-top: 10px;
+        width: 560px;
+        font-size: 28px;
+    }
+    .text-wrapper-33 {
+        width: 100%;
+    }
+    #service-pic-3 {
+        width: 600px;
+        height: auto;
+    }
+    #servicio-3 {
+        margin-bottom: 100px;
+    }
+    #servicio-3 h3 {
+        margin-top: 10px;
+        width: 620px;
+        font-size: 30px;
+    }
+    #servicio-3 a {
+        margin-top: 10px;
+        width: 560px;
+        font-size: 28px;
+    }
+    .text-wrapper-34 {
+        width: 100%;
+    }
+    #service-pic-4 {
+        width: 600px;
+        height: auto;
+    }
+    #servicio-4 {
+        margin-bottom: 100px;
+    }
+    #servicio-4 h3 {
+        margin-top: 10px;
+        width: 620px;
+        font-size: 30px;
+    }
+    #servicio-4 a {
+        margin-top: 10px;
+        width: 570px;
+        font-size: 28px
+    }
+    .text-wrapper-35 {
+        width: 100%;
+    }
+    #service-pic-5 {
+        width: 600px;
+        height: auto;
+    }
+    #servicio-5 {
+        margin-bottom: 100px;
+    }
+    #servicio-5 h3 {
+        margin-top: 10px;
+        width: 620px;
+        font-size: 30px;
+    }
+    #servicio-5 a {
+        margin-top: 10px;
+        width: 560px;
+        font-size: 28px;
+    }
+    .text-wrapper-36 {
+        width: 100%;
+    }
+    #service-pic-6 {
+        width: 600px;
+        height: auto;
+    }
+    #servicio-6 {
+        margin-bottom: 100px;
+    }
+    #servicio-6 h3 {
+        margin-top: 10px;
+        width: 620px;
+        font-size: 30px;
+    }
+    #servicio-6 a {
+        margin-top: 10px;
+        width: 560px;
+        font-size: 28px;
+    }
+    .text-wrapper-37 {
+        width: 100%;
+    }
+    #service-pic-7 {
+        width: 600px;
+        height: auto;
+    }
+    #servicio-7 {
+        margin-bottom: 100px;
+    }
+    #servicio-7 h3 {
+        margin-top: 10px;
+        width: 620px;
+        font-size: 30px;
+    }
+    #servicio-7 a {
+        margin-top: 10px;
+        width: 560px;
+        font-size: 28px;
+    }
+    .text-wrapper-38 {
+        width: 100%;
+    }
+    #service-pic-8 {
+        width: 600px;
+        height: auto;
+    }
+    #servicio-8 {
+        margin-bottom: 100px;
+    }
+    #servicio-8 h3 {
+        margin-top: 10px;
+        width: 620px;
+        font-size: 30px;
+    }
+    #servicio-8 a {
+        margin-top: 10px;
+        width: 560px;
+        font-size: 28px;
+    }
+    .text-wrapper-39 {
+        width: 100%;
+    }
+    #service-pic-9 {
+        width: 600px;
+        height: auto;
+    }
+    #servicio-9 {
+        margin-bottom: 60px;
+    }
+    #servicio-9 h3 {
+        margin-top: 10px;
+        width: 620px;
+        font-size: 30px;
+    }
+    #servicio-9 a {
+        margin-top: 10px;
+        width: 520px;
+        font-size: 28px;
+    }
+    .custom-line {
+        width: 600px;                
+        margin-bottom: 30px;             
+    }      
+    .email-button {
+        padding: 20px 20px;
+        border-radius: 3px;
+        font-size: 20px;
+        margin-bottom: 60px;
+    }
+    #servicio-spa {
+        margin-bottom: 190px;
+    }
+    .text-wrapper-4 {
+        font-size: 25px;
+        margin-top: 40px;
+        margin-bottom: 100px;
+    }
+    .spa-list li {
+        margin-bottom: 35px;
+        font-size: 25px;
+    }
+    #footer-logo {
+        width: 230px;
+        height: auto;
+    }
+    #partner-logos {
+        gap: 20px;
+    }
+    #ContactInfo ul {
+        margin-top: 30px;
+        margin-left: 0;
+        padding: 0 20px;
+    }
+    #ContactInfo li {
+        margin-bottom: 35px;
+        height: 50px;
+    }
+    #ContactInfo img {
+        width: 70px;
+    }
+    #meguiars {
+        width: 190px;
+        height: auto;
+    }
+    #karcher {
+        width: 195px;
+        height: auto;
+    }
+    #mothers {
+        width: 195px;
+        height: auto;
+    }
+}
+
+/*Minimized desktop browser*/
+@media only screen and (min-width: 401px) and (max-width: 767px) and (hover:hover) {
+    #test {
+        width: 140px;
+        height: auto;
+    }
+    .desktop-menu {
+        display: none;
+        visibility: hidden;
+        opacity: 0;
+        pointer-events: none;
+    }
+    #MenuBar {
+        height: 92px;
+    }
+    .dropdown-toggle {
+        display: flex;
+        align-items: center;
+        margin-right: 15px;
+    }
+    .dropdown-content {
+        top: 92px;
+        right: 0;
+        display: none;
+        flex-direction: column;
+        background-color: rgba(0, 0, 0);
+        position: absolute;
+        z-index: 1001;
+        text-align: center;
+        animation: dropdown-slide 0.3s ease-in-out forwards;
+    }
+    .dropdown-content a {
+        color: white;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        transition: transform 0.3s ease;
+    }
+    @keyframes dropdown-slide {
+        0% {
+            opacity: 0;
+            transform: translateY(-10px);
+        }
+        100% {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+    .text-wrapper {
+        margin-top: 140px;
+        font-size: 20px;
+    }
+    .text-wrapper h1 {
+        margin-bottom: 5px;
+    }
+    #movemosTXT {
+        transform: translateX(-40px);
+    }
+    #servicioTXT {
+        transform: translateX(35px);
+    }
+    #flotillaTXT {
+        transform: translateX(25px);
+    }
+    #main-web-image {
+        width: 126px;
+        transform: translateY(-130px) translateX(105px);
+    }
+    #pasion-servir {
+        transform: translateY(-65px);
+    }
+    .text-wrapper-2 {
+        font-size: 15px;
+    }
+    #wereTXT {
+        margin-bottom: 5px;
+    }
+    .sobreTexto {
+        font-size: 12px;
+        max-width: 160px;
+        transform: translateY(0px);
+    }
+    #car-wash-pic {
+        width: 100%;
+        height: auto;
+    }
+    #title {
+        font-size: 15px;
+        transform: translateY(-30px);
+        height: 50px;
+    }
+    .text-wrapper-3 {
+        width: 100%;
+    }
+    #service-pic-1 {
+        width: 300px;
+        height: auto;
+    }
+    #servicio-1 {
+        margin-bottom: 100px;
+    }
+    #servicio-1 h3 {
+        margin-top: 10px;
+        width: 300px;
+    }
+    #servicio-1 a {
+        margin-top: 10px;
+        width: 300px;
+    }
+    .text-wrapper-32 {
+        width: 100%;
+    }
+    #service-pic-2 {
+        width: 300px;
+        height: auto;
+    }
+    #servicio-2 {
+        margin-bottom: 100px;
+    }
+    #servicio-2 h3 {
+        margin-top: 10px;
+        width: 300px;
+    }
+    #servicio-2 a {
+        margin-top: 10px;
+        width: 300px;
+    }
+    .text-wrapper-33 {
+        width: 100%;
+    }
+    #service-pic-3 {
+        width: 300px;
+        height: auto;
+    }
+    #servicio-3 {
+        margin-bottom: 100px;
+    }
+    #servicio-3 h3 {
+        margin-top: 10px;
+        width: 300px;
+    }
+    #servicio-3 a {
+        margin-top: 10px;
+        width: 300px;
+    }
+    .text-wrapper-34 {
+        width: 100%;
+    }
+    #service-pic-4 {
+        width: 300px;
+        height: auto;
+    }
+    #servicio-4 {
+        margin-bottom: 100px;
+    }
+    #servicio-4 h3 {
+        margin-top: 10px;
+        width: 300px;
+    }
+    #servicio-4 a {
+        margin-top: 10px;
+        width: 300px;
+    }
+    .text-wrapper-35 {
+        width: 100%;
+    }
+    #service-pic-5 {
+        width: 300px;
+        height: auto;
+    }
+    #servicio-5 {
+        margin-bottom: 100px;
+    }
+    #servicio-5 h3 {
+        margin-top: 10px;
+        width: 300px;
+    }
+    #servicio-5 a {
+        margin-top: 10px;
+        width: 300px;
+    }
+    .text-wrapper-36 {
+        width: 100%;
+    }
+    #service-pic-6 {
+        width: 300px;
+        height: auto;
+    }
+    #servicio-6 {
+        margin-bottom: 100px;
+    }
+    #servicio-6 h3 {
+        margin-top: 10px;
+        width: 300px;
+    }
+    #servicio-6 a {
+        margin-top: 10px;
+        width: 300px;
+    }
+    .text-wrapper-37 {
+        width: 100%;
+    }
+    #service-pic-7 {
+        width: 300px;
+        height: auto;
+    }
+    #servicio-7 {
+        margin-bottom: 100px;
+    }
+    #servicio-7 h3 {
+        margin-top: 10px;
+        width: 300px;
+    }
+    #servicio-7 a {
+        margin-top: 10px;
+        width: 300px;
+    }
+    .text-wrapper-38 {
+        width: 100%;
+    }
+    #service-pic-8 {
+        width: 300px;
+        height: auto;
+    }
+    #servicio-8 {
+        margin-bottom: 100px;
+    }
+    #servicio-8 h3 {
+        margin-top: 10px;
+        width: 300px;
+    }
+    #servicio-8 a {
+        margin-top: 10px;
+        width: 300px;
+    }
+    .text-wrapper-39 {
+        width: 100%;
+    }
+    #service-pic-9 {
+        width: 300px;
+        height: auto;
+    }
+    #servicio-9 {
+        margin-bottom: 60px;
+    }
+    #servicio-9 h3 {
+        margin-top: 10px;
+        width: 300px;
+    }
+    #servicio-9 a {
+        margin-top: 10px;
+        width: 300px;
+    }
+    .custom-line {
+        width: 300px;                
+        margin-bottom: 30px;             
+    }      
+    .email-button {
+        padding: 15px 15px;
+        border-radius: 3px;
+        font-size: 15px;
+    }
+    .text-wrapper-4 {
+        font-size: 15px;
+        margin-top: 40px;
+    }
+    .spa-list li {
+        margin-bottom: 15px;
+    }
+    #footer-logo {
+        width: 170px;
+        height: auto;
+    }
+    #partner-logos {
+        gap: 20px;
+    }
+    #ContactInfo ul {
+        margin-top: 30px;
+        margin-left: 0;
+        padding: 0 20px;
+    }
+    #ContactInfo li {
+        margin-bottom: 15px;
+        height: 50px;
+    }
+    #ContactInfo img {
+        width: 50px;
+    }
+    #meguiars {
+        width: 100px;
+        height: auto;
+    }
+    #karcher {
+        width: 105px;
+        height: auto;
+    }
+    #mothers {
+        width: 105px;
+        height: auto;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 819px) and (hover:hover) {
+    #test {
+        width: 200px;
+        height: auto;
+    }
+    .desktop-menu {
+        display: none;
+        visibility: hidden;
+        opacity: 0;
+        pointer-events: none;
+    }
+    #MenuBar {
+        height: 130px;
+    }
+    .dropdown-toggle {
+        display: flex;
+        align-items: center;
+        margin-right: 25px;
+    }
+    .dropdown-content {
+        top: 120px;
+        right: 0px;
+        display: none;
+        flex-direction: column;
+        background-color: rgba(0, 0, 0);
+        position: absolute;
+        z-index: 1001;
+        text-align: center;
+        animation: dropdown-slide 0.3s ease-in-out forwards;
+    }
+    .dropdown-content a {
+        color: white;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        transition: transform 0.3s ease;
+        font-size: 20px;
+    }
+    @keyframes dropdown-slide {
+        0% {
+            opacity: 0;
+            transform: translateY(-10px);
+        }
+        100% {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+    .text-wrapper {
+        margin-top: 190px;
+        font-size: 20px;
+        font-size: 30px;
+    }
+    .text-wrapper h1 {
+        margin-bottom: 5px;
+    }
+    #movemosTXT {
+        transform: translateX(-70px);
+    }
+    #servicioTXT {
+        transform: translateX(50px);
+    }
+    #flotillaTXT {
+        transform: translateX(20px);
+    }
+    #main-web-image {
+        width: 175px;
+        transform: translateY(-177px) translateX(140px);
+    }
+    #pasion-servir {
+        transform: translateY(-85px);
+    }
+    .text-wrapper-2 {
+        font-size: 25px;
+    }
+    #wereTXT {
+        margin-bottom: 5px;
+    }
+    .sobreTexto {
+        font-size: 20px;
+        max-width: 290px;
+        transform: translateY(0px);
+    }
+    #car-wash-pic {
+        width: 100%;
+        height: auto;
+    }
+    #title {
+        font-size: 25px;
+        transform: translateY(-40px);
+        height: 50px;
+        margin-bottom: 30px;
+    }
+    .text-wrapper-3 {
+        width: 100%;
+    }
+    #service-pic-1 {
+        width: 400px;
+        height: auto;
+    }
+    #servicio-1 {
+        margin-bottom: 100px;
+    }
+    #servicio-1 h3 {
+        margin-top: 10px;
+        width: 450px;
+        font-size: 22px;
+    }
+    #servicio-1 a {
+        margin-top: 10px;
+        width: 350px;
+        font-size: 20px;
+    }
+    .text-wrapper-32 {
+        width: 100%;
+    }
+    #service-pic-2 {
+        width: 400px;
+        height: auto;
+    }
+    #servicio-2 {
+        margin-bottom: 100px;
+    }
+    #servicio-2 h3 {
+        margin-top: 10px;
+        width: 450px;
+        font-size: 22px;
+    }
+    #servicio-2 a {
+        margin-top: 10px;
+        width: 350px;
+        font-size: 20px;
+    }
+    .text-wrapper-33 {
+        width: 100%;
+    }
+    #service-pic-3 {
+        width: 400px;
+        height: auto;
+    }
+    #servicio-3 {
+        margin-bottom: 100px;
+    }
+    #servicio-3 h3 {
+        margin-top: 10px;
+        width: 420px;
+        font-size: 22px;
+    }
+    #servicio-3 a {
+        margin-top: 10px;
+        width: 350px;
+        font-size: 20px;
+    }
+    .text-wrapper-34 {
+        width: 100%;
+    }
+    #service-pic-4 {
+        width: 400px;
+        height: auto;
+    }
+    #servicio-4 {
+        margin-bottom: 100px;
+    }
+    #servicio-4 h3 {
+        margin-top: 10px;
+        width: 420px;
+        font-size: 22px;
+    }
+    #servicio-4 a {
+        margin-top: 10px;
+        width: 350px;
+        font-size: 20px
+    }
+    .text-wrapper-35 {
+        width: 100%;
+    }
+    #service-pic-5 {
+        width: 400px;
+        height: auto;
+    }
+    #servicio-5 {
+        margin-bottom: 100px;
+    }
+    #servicio-5 h3 {
+        margin-top: 10px;
+        width: 420px;
+        font-size: 22px;
+    }
+    #servicio-5 a {
+        margin-top: 10px;
+        width: 350px;
+        font-size: 20px;
+    }
+    .text-wrapper-36 {
+        width: 100%;
+    }
+    #service-pic-6 {
+        width: 400px;
+        height: auto;
+    }
+    #servicio-6 {
+        margin-bottom: 100px;
+    }
+    #servicio-6 h3 {
+        margin-top: 10px;
+        width: 420px;
+        font-size: 22px;
+    }
+    #servicio-6 a {
+        margin-top: 10px;
+        width: 350px;
+        font-size: 20px;
+    }
+    .text-wrapper-37 {
+        width: 100%;
+    }
+    #service-pic-7 {
+        width: 400px;
+        height: auto;
+    }
+    #servicio-7 {
+        margin-bottom: 100px;
+    }
+    #servicio-7 h3 {
+        margin-top: 10px;
+        width: 420px;
+        font-size: 22px;
+    }
+    #servicio-7 a {
+        margin-top: 10px;
+        width: 350px;
+        font-size: 20px;
+    }
+    .text-wrapper-38 {
+        width: 100%;
+    }
+    #service-pic-8 {
+        width: 400px;
+        height: auto;
+    }
+    #servicio-8 {
+        margin-bottom: 100px;
+    }
+    #servicio-8 h3 {
+        margin-top: 10px;
+        width: 420px;
+        font-size: 22px;
+    }
+    #servicio-8 a {
+        margin-top: 10px;
+        width: 350px;
+        font-size: 20px;
+    }
+    .text-wrapper-39 {
+        width: 100%;
+    }
+    #service-pic-9 {
+        width: 400px;
+        height: auto;
+    }
+    #servicio-9 {
+        margin-bottom: 60px;
+    }
+    #servicio-9 h3 {
+        margin-top: 10px;
+        width: 420px;
+        font-size: 22px;
+    }
+    #servicio-9 a {
+        margin-top: 10px;
+        width: 350px;
+        font-size: 20px;
+    }
+    .custom-line {
+        width: 400px;                
+        margin-bottom: 30px;             
+    }      
+    .email-button {
+        padding: 20px 20px;
+        border-radius: 3px;
+        font-size: 20px;
+        margin-bottom: 60px;
+    }
+    #servicio-spa {
+        margin-bottom: 190px;
+    }
+    .text-wrapper-4 {
+        font-size: 25px;
+        margin-top: 40px;
+        margin-bottom: 100px;
+    }
+    .spa-list li {
+        margin-bottom: 35px;
+        font-size: 25px;
+    }
+    #footer-logo {
+        width: 230px;
+        height: auto;
+    }
+    #partner-logos {
+        gap: 20px;
+    }
+    #ContactInfo ul {
+        margin-top: 30px;
+        margin-left: 0;
+        padding: 0 20px;
+    }
+    #ContactInfo li {
+        margin-bottom: 35px;
+        height: 50px;
+    }
+    #ContactInfo img {
+        width: 70px;
+    }
+    #meguiars {
+        width: 190px;
+        height: auto;
+    }
+    #karcher {
+        width: 195px;
+        height: auto;
+    }
+    #mothers {
+        width: 195px;
+        height: auto;
+    }
+}
+@media only screen and (min-width: 820px) and (max-width: 1023px) and (hover:hover) {
+    #test {
+        width: 200px;
+        height: auto;
+    }
+    .desktop-menu {
+        display: none;
+        visibility: hidden;
+        opacity: 0;
+        pointer-events: none;
+    }
+    #MenuBar {
+        height: 130px;
+    }
+    .dropdown-toggle {
+        display: flex;
+        align-items: center;
+        margin-right: 25px;
+    }
+    .dropdown-content {
+        top: 120px;
+        right: 0px;
+        display: none;
+        flex-direction: column;
+        background-color: rgba(0, 0, 0);
+        position: absolute;
+        z-index: 1001;
+        text-align: center;
+        animation: dropdown-slide 0.3s ease-in-out forwards;
+    }
+    .dropdown-content a {
+        color: white;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        transition: transform 0.3s ease;
+        font-size: 20px;
+    }
+    @keyframes dropdown-slide {
+        0% {
+            opacity: 0;
+            transform: translateY(-10px);
+        }
+        100% {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+    .text-wrapper {
+        margin-top: 190px;
+        font-size: 20px;
+        font-size: 30px;
+    }
+    .text-wrapper h1 {
+        margin-bottom: 5px;
+    }
+    #movemosTXT {
+        transform: translateX(-70px);
+    }
+    #servicioTXT {
+        transform: translateX(50px);
+    }
+    #flotillaTXT {
+        transform: translateX(20px);
+    }
+    #main-web-image {
+        width: 175px;
+        transform: translateY(-177px) translateX(140px);
+    }
+    #pasion-servir {
+        transform: translateY(-85px);
+    }
+    .text-wrapper-2 {
+        font-size: 25px;
+    }
+    #wereTXT {
+        margin-bottom: 5px;
+    }
+    .sobreTexto {
+        font-size: 20px;
+        max-width: 290px;
+        transform: translateY(0px);
+    }
+    #car-wash-pic {
+        width: 100%;
+        height: auto;
+    }
+    #title {
+        font-size: 25px;
+        transform: translateY(-40px);
+        height: 50px;
+        margin-bottom: 30px;
+    }
+    .text-wrapper-3 {
+        width: 100%;
+    }
+    #service-pic-1 {
+        width: 400px;
+        height: auto;
+    }
+    #servicio-1 {
+        margin-bottom: 100px;
+    }
+    #servicio-1 h3 {
+        margin-top: 10px;
+        width: 450px;
+        font-size: 22px;
+    }
+    #servicio-1 a {
+        margin-top: 10px;
+        width: 350px;
+        font-size: 20px;
+    }
+    .text-wrapper-32 {
+        width: 100%;
+    }
+    #service-pic-2 {
+        width: 400px;
+        height: auto;
+    }
+    #servicio-2 {
+        margin-bottom: 100px;
+    }
+    #servicio-2 h3 {
+        margin-top: 10px;
+        width: 450px;
+        font-size: 22px;
+    }
+    #servicio-2 a {
+        margin-top: 10px;
+        width: 350px;
+        font-size: 20px;
+    }
+    .text-wrapper-33 {
+        width: 100%;
+    }
+    #service-pic-3 {
+        width: 400px;
+        height: auto;
+    }
+    #servicio-3 {
+        margin-bottom: 100px;
+    }
+    #servicio-3 h3 {
+        margin-top: 10px;
+        width: 420px;
+        font-size: 22px;
+    }
+    #servicio-3 a {
+        margin-top: 10px;
+        width: 350px;
+        font-size: 20px;
+    }
+    .text-wrapper-34 {
+        width: 100%;
+    }
+    #service-pic-4 {
+        width: 400px;
+        height: auto;
+    }
+    #servicio-4 {
+        margin-bottom: 100px;
+    }
+    #servicio-4 h3 {
+        margin-top: 10px;
+        width: 420px;
+        font-size: 22px;
+    }
+    #servicio-4 a {
+        margin-top: 10px;
+        width: 350px;
+        font-size: 20px
+    }
+    .text-wrapper-35 {
+        width: 100%;
+    }
+    #service-pic-5 {
+        width: 400px;
+        height: auto;
+    }
+    #servicio-5 {
+        margin-bottom: 100px;
+    }
+    #servicio-5 h3 {
+        margin-top: 10px;
+        width: 420px;
+        font-size: 22px;
+    }
+    #servicio-5 a {
+        margin-top: 10px;
+        width: 350px;
+        font-size: 20px;
+    }
+    .text-wrapper-36 {
+        width: 100%;
+    }
+    #service-pic-6 {
+        width: 400px;
+        height: auto;
+    }
+    #servicio-6 {
+        margin-bottom: 100px;
+    }
+    #servicio-6 h3 {
+        margin-top: 10px;
+        width: 420px;
+        font-size: 22px;
+    }
+    #servicio-6 a {
+        margin-top: 10px;
+        width: 350px;
+        font-size: 20px;
+    }
+    .text-wrapper-37 {
+        width: 100%;
+    }
+    #service-pic-7 {
+        width: 400px;
+        height: auto;
+    }
+    #servicio-7 {
+        margin-bottom: 100px;
+    }
+    #servicio-7 h3 {
+        margin-top: 10px;
+        width: 420px;
+        font-size: 22px;
+    }
+    #servicio-7 a {
+        margin-top: 10px;
+        width: 350px;
+        font-size: 20px;
+    }
+    .text-wrapper-38 {
+        width: 100%;
+    }
+    #service-pic-8 {
+        width: 400px;
+        height: auto;
+    }
+    #servicio-8 {
+        margin-bottom: 100px;
+    }
+    #servicio-8 h3 {
+        margin-top: 10px;
+        width: 420px;
+        font-size: 22px;
+    }
+    #servicio-8 a {
+        margin-top: 10px;
+        width: 350px;
+        font-size: 20px;
+    }
+    .text-wrapper-39 {
+        width: 100%;
+    }
+    #service-pic-9 {
+        width: 400px;
+        height: auto;
+    }
+    #servicio-9 {
+        margin-bottom: 60px;
+    }
+    #servicio-9 h3 {
+        margin-top: 10px;
+        width: 420px;
+        font-size: 22px;
+    }
+    #servicio-9 a {
+        margin-top: 10px;
+        width: 350px;
+        font-size: 20px;
+    }
+    .custom-line {
+        width: 400px;                
+        margin-bottom: 30px;             
+    }      
+    .email-button {
+        padding: 20px 20px;
+        border-radius: 3px;
+        font-size: 20px;
+        margin-bottom: 60px;
+    }
+    #servicio-spa {
+        margin-bottom: 190px;
+    }
+    .text-wrapper-4 {
+        font-size: 25px;
+        margin-top: 40px;
+        margin-bottom: 100px;
+    }
+    .spa-list li {
+        margin-bottom: 35px;
+        font-size: 25px;
+    }
+    #footer-logo {
+        width: 230px;
+        height: auto;
+    }
+    #partner-logos {
+        gap: 20px;
+    }
+    #ContactInfo ul {
+        margin-top: 30px;
+        margin-left: 0;
+        padding: 0 20px;
+    }
+    #ContactInfo li {
+        margin-bottom: 35px;
+        height: 50px;
+    }
+    #ContactInfo img {
+        width: 70px;
+    }
+    #meguiars {
+        width: 190px;
+        height: auto;
+    }
+    #karcher {
+        width: 195px;
+        height: auto;
+    }
+    #mothers {
+        width: 195px;
+        height: auto;
+    }
+}
+@media only screen and (min-width: 1024px) and (max-width: 1366px) and (hover:hover) {
+    #test {
+        width: 200px;
+        height: auto;
+    }
+    .desktop-menu {
+        display: none;
+        visibility: hidden;
+        opacity: 0;
+        pointer-events: none;
+    }
+    #MenuBar {
+        height: 130px;
+    }
+    .dropdown-toggle {
+        display: flex;
+        align-items: center;
+        margin-right: 25px;
+    }
+    .dropdown-content {
+        top: 120px;
+        right: 0px;
+        display: none;
+        flex-direction: column;
+        background-color: rgba(0, 0, 0);
+        position: absolute;
+        z-index: 1001;
+        text-align: center;
+        animation: dropdown-slide 0.3s ease-in-out forwards;
+    }
+    .dropdown-content a {
+        color: white;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        transition: transform 0.3s ease;
+        font-size: 20px;
+    }
+    @keyframes dropdown-slide {
+        0% {
+            opacity: 0;
+            transform: translateY(-10px);
+        }
+        100% {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+    .text-wrapper {
+        margin-top: 190px;
+        font-size: 20px;
+        font-size: 30px;
+    }
+    .text-wrapper h1 {
+        margin-bottom: 5px;
+    }
+    #movemosTXT {
+        transform: translateX(-70px);
+    }
+    #servicioTXT {
+        transform: translateX(50px);
+    }
+    #flotillaTXT {
+        transform: translateX(20px);
+    }
+    #main-web-image {
+        width: 175px;
+        transform: translateY(-177px) translateX(140px);
+    }
+    #pasion-servir {
+        transform: translateY(-85px);
+    }
+    .text-wrapper-2 {
+        font-size: 25px;
+    }
+    #wereTXT {
+        margin-bottom: 5px;
+    }
+    .sobreTexto {
+        font-size: 20px;
+        max-width: 290px;
+        transform: translateY(0px);
+    }
+    #car-wash-pic {
+        width: 100%;
+        height: auto;
+    }
+    #title {
+        font-size: 25px;
+        transform: translateY(10px);
+        height: 50px;
+        margin-bottom: 90px;
+    }
+    .text-wrapper-3 {
+        width: 100%;
+    }
+    #service-pic-1 {
+        width: 400px;
+        height: auto;
+    }
+    #servicio-1 {
+        margin-bottom: 100px;
+    }
+    #servicio-1 h3 {
+        margin-top: 10px;
+        width: 450px;
+        font-size: 22px;
+    }
+    #servicio-1 a {
+        margin-top: 10px;
+        width: 350px;
+        font-size: 20px;
+    }
+    .text-wrapper-32 {
+        width: 100%;
+    }
+    #service-pic-2 {
+        width: 400px;
+        height: auto;
+    }
+    #servicio-2 {
+        margin-bottom: 100px;
+    }
+    #servicio-2 h3 {
+        margin-top: 10px;
+        width: 450px;
+        font-size: 22px;
+    }
+    #servicio-2 a {
+        margin-top: 10px;
+        width: 350px;
+        font-size: 20px;
+    }
+    .text-wrapper-33 {
+        width: 100%;
+    }
+    #service-pic-3 {
+        width: 400px;
+        height: auto;
+    }
+    #servicio-3 {
+        margin-bottom: 100px;
+    }
+    #servicio-3 h3 {
+        margin-top: 10px;
+        width: 420px;
+        font-size: 22px;
+    }
+    #servicio-3 a {
+        margin-top: 10px;
+        width: 350px;
+        font-size: 20px;
+    }
+    .text-wrapper-34 {
+        width: 100%;
+    }
+    #service-pic-4 {
+        width: 400px;
+        height: auto;
+    }
+    #servicio-4 {
+        margin-bottom: 100px;
+    }
+    #servicio-4 h3 {
+        margin-top: 10px;
+        width: 420px;
+        font-size: 22px;
+    }
+    #servicio-4 a {
+        margin-top: 10px;
+        width: 350px;
+        font-size: 20px
+    }
+    .text-wrapper-35 {
+        width: 100%;
+    }
+    #service-pic-5 {
+        width: 400px;
+        height: auto;
+    }
+    #servicio-5 {
+        margin-bottom: 100px;
+    }
+    #servicio-5 h3 {
+        margin-top: 10px;
+        width: 420px;
+        font-size: 22px;
+    }
+    #servicio-5 a {
+        margin-top: 10px;
+        width: 350px;
+        font-size: 20px;
+    }
+    .text-wrapper-36 {
+        width: 100%;
+    }
+    #service-pic-6 {
+        width: 400px;
+        height: auto;
+    }
+    #servicio-6 {
+        margin-bottom: 100px;
+    }
+    #servicio-6 h3 {
+        margin-top: 10px;
+        width: 420px;
+        font-size: 22px;
+    }
+    #servicio-6 a {
+        margin-top: 10px;
+        width: 350px;
+        font-size: 20px;
+    }
+    .text-wrapper-37 {
+        width: 100%;
+    }
+    #service-pic-7 {
+        width: 400px;
+        height: auto;
+    }
+    #servicio-7 {
+        margin-bottom: 100px;
+    }
+    #servicio-7 h3 {
+        margin-top: 10px;
+        width: 420px;
+        font-size: 22px;
+    }
+    #servicio-7 a {
+        margin-top: 10px;
+        width: 350px;
+        font-size: 20px;
+    }
+    .text-wrapper-38 {
+        width: 100%;
+    }
+    #service-pic-8 {
+        width: 400px;
+        height: auto;
+    }
+    #servicio-8 {
+        margin-bottom: 100px;
+    }
+    #servicio-8 h3 {
+        margin-top: 10px;
+        width: 420px;
+        font-size: 22px;
+    }
+    #servicio-8 a {
+        margin-top: 10px;
+        width: 350px;
+        font-size: 20px;
+    }
+    .text-wrapper-39 {
+        width: 100%;
+    }
+    #service-pic-9 {
+        width: 400px;
+        height: auto;
+    }
+    #servicio-9 {
+        margin-bottom: 60px;
+    }
+    #servicio-9 h3 {
+        margin-top: 10px;
+        width: 420px;
+        font-size: 22px;
+    }
+    #servicio-9 a {
+        margin-top: 10px;
+        width: 350px;
+        font-size: 20px;
+    }
+    .custom-line {
+        width: 400px;                
+        margin-bottom: 30px;             
+    }      
+    .email-button {
+        padding: 20px 20px;
+        border-radius: 3px;
+        font-size: 20px;
+        margin-bottom: 60px;
+    }
+    #servicio-spa {
+        margin-bottom: 190px;
+    }
+    .text-wrapper-4 {
+        font-size: 25px;
+        margin-top: 40px;
+        margin-bottom: 100px;
+    }
+    .spa-list li {
+        margin-bottom: 35px;
+        font-size: 25px;
+    }
+    #footer-logo {
+        width: 230px;
+        height: auto;
+    }
+    #partner-logos {
+        gap: 20px;
+    }
+    #ContactInfo ul {
+        margin-top: 30px;
+        margin-left: 0;
+        padding: 0 20px;
+    }
+    #ContactInfo li {
+        margin-bottom: 35px;
+        height: 50px;
+    }
+    #ContactInfo img {
+        width: 70px;
+    }
+    #meguiars {
+        width: 190px;
+        height: auto;
+    }
+    #karcher {
+        width: 195px;
+        height: auto;
+    }
+    #mothers {
+        width: 195px;
+        height: auto;
+    }
+}
+
+/*Desktop*/
+@media only screen and (min-width: 1367px) {
+    #test {
+        width: 200px;
+        height: auto;
+        margin-left: 10px;
+    }
+    #MenuBar {
+        height: 120px;
+    }
+    .desktop-menu {
+        display: none;
+        visibility: hidden;
+        opacity: 0;
+        pointer-events: none;
+    }
+    #MenuBar {
+        height: 120px;
+    }
+    .dropdown-toggle {
+        display: flex;
+        align-items: center;
+        margin-right: 20px;
+    }
+    .dropdown-content {
+        top: 120px;
+        right: 0;
+        display: none;
+        flex-direction: column;
+        background-color: rgba(0, 0, 0);
+        position: absolute;
+        z-index: 1001;
+        text-align: center;
+        animation: dropdown-slide 0.3s ease-in-out forwards;
+    }
+    .dropdown-content a {
+        color: white;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        transition: transform 0.3s ease;
+        font-size: 25px;
+    }
+    @keyframes dropdown-slide {
+        0% {
+            opacity: 0;
+            transform: translateY(-10px);
+        }
+        100% {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+    .text-wrapper {
+        margin-top: 220px;
+        font-size: 45px;
+    }
+    .text-wrapper h1 {
+        margin-bottom: 5px;
+    }
+    #movemosTXT {
+        transform: translateX(-140px);
+    }
+    #servicioTXT {
+        transform: translateX(35px);
+    }
+    #flotillaTXT {
+        transform: translateX(-5px);
+    }
+    #main-web-image {
+        width: 265px;
+        transform: translateY(-265px) translateX(180px);
+        margin-bottom: 120px;
+    }
+    #pasion-servir {
+        margin-top: -200px;
+    }
+    .text-wrapper-2 {
+        font-size: 40px;
+    }
+    #wereTXT {
+        margin-bottom: 5px;
+    }
+    .sobreTexto {
+        font-size: 32px;
+        line-height: 1.7;
+        max-width: 460px;
+    }
+    #title {
+        font-size: 40px;
+        margin-top: 20px;
+        height: 140px;
+        margin-bottom: 100px;
+    }
+    .text-wrapper-3 {
+        width: 100%;
+    }
+    #service-pic-1 {
+        width: 500px;
+        height: auto;
+    }
+    #servicio-1 {
+        margin-bottom: 160px;
+    }
+    #servicio-1 h3 {
+        margin-top: 10px;
+        width: 520px;
+        font-size: 25px;
+    }
+    #servicio-1 a {
+        margin-top: 10px;
+        width: 450px;
+        font-size: 20px;
+    }
+    .text-wrapper-32 {
+        width: 100%;
+    }
+    #service-pic-2 {
+        width: 500px;
+        height: auto;
+    }
+    #servicio-2 {
+        margin-bottom: 160px;
+    }
+    #servicio-2 h3 {
+        margin-top: 10px;
+        width: 520px;
+        font-size: 25px;
+    }
+    #servicio-2 a {
+        margin-top: 10px;
+        width: 450px;
+        font-size: 20px;
+    }
+    .text-wrapper-33 {
+        width: 100%;
+    }
+    #service-pic-3 {
+        width: 500px;
+        height: auto;
+    }
+    #servicio-3 {
+        margin-bottom: 160px;
+    }
+    #servicio-3 h3 {
+        margin-top: 10px;
+        width: 400px;
+        font-size: 25px;
+    }
+    #servicio-3 a {
+        margin-top: 10px;
+        width: 450px;
+        font-size: 20px;
+    }
+    .text-wrapper-34 {
+        width: 100%;
+    }
+    #service-pic-4 {
+        width: 500px;
+        height: auto;
+    }
+    #servicio-4 {
+        margin-bottom: 160px;
+    }
+    #servicio-4 h3 {
+        margin-top: 10px;
+        width: 400px;
+        font-size: 25px;
+    }
+    #servicio-4 a {
+        margin-top: 10px;
+        width: 450px;
+        font-size: 20px;
+    }
+    .text-wrapper-35 {
+        width: 100%;
+    }
+    #service-pic-5 {
+        width: 500px;
+        height: auto;
+    }
+    #servicio-5 {
+        margin-bottom: 160px;
+    }
+    #servicio-5 h3 {
+        margin-top: 10px;
+        width: 520px;
+        font-size: 25px;
+    }
+    #servicio-5 a {
+        margin-top: 10px;
+        width: 400px;
+        font-size: 20px;
+    }
+    .text-wrapper-36 {
+        width: 100%;
+    }
+    #service-pic-6 {
+        width: 500px;
+        height: auto;
+    }
+    #servicio-6 {
+        margin-bottom: 160px;
+    }
+    #servicio-6 h3 {
+        margin-top: 10px;
+        width: 520px;
+        font-size: 25px;
+    }
+    #servicio-6 a {
+        margin-top: 10px;
+        width: 450px;
+        font-size: 20px;
+    }
+    .text-wrapper-37 {
+        width: 100%;
+    }
+    #service-pic-7 {
+        width: 500px;
+        height: auto;
+    }
+    #servicio-7 {
+        margin-bottom: 160px;
+    }
+    #servicio-7 h3 {
+        margin-top: 10px;
+        width: 520px;
+        font-size: 25px;
+    }
+    #servicio-7 a {
+        margin-top: 10px;
+        width: 450px;
+        font-size: 20px;
+    }
+    .text-wrapper-38 {
+        width: 100%;
+    }
+    #service-pic-8 {
+        width: 500px;
+        height: auto;
+    }
+    #servicio-8 {
+        margin-bottom: 160px;
+    }
+    #servicio-8 h3 {
+        margin-top: 10px;
+        width: 520px;
+        font-size: 25px;
+    }
+    #servicio-8 a {
+        margin-top: 10px;
+        width: 450px;
+        font-size: 20px;
+    }
+    .text-wrapper-39 {
+        width: 100%;
+    }
+    #service-pic-9 {
+        width: 500px;
+        height: auto;
+    }
+    #servicio-9 {
+        margin-bottom: 160px;
+    }
+    #servicio-9 h3 {
+        margin-top: 10px;
+        width: 520px;
+        font-size: 25px;
+    }
+    #servicio-9 a {
+        margin-top: 10px;
+        width: 450px;
+        font-size: 20px;
+    }
+    .custom-line {
+        width: 500px;                
+        margin-bottom: 30px;             
+    }
+    .email-button {
+        padding: 20px 25px;
+        border-radius: 3px;
+        font-size: 20px;
+    }
+    .email-button:hover {
+        transform: scale(1.1); 
+        box-shadow: none;
+        outline: none;
+        background-color: #ffea00;
+    }
+    .dropdown-content a:hover {
+        transform: scale(1.1); 
+        box-shadow: none;
+        outline: none;
+        color: #53daff;
+    }
+    #servicio-spa {
+        margin-bottom: 220px;
+    }
+    .text-wrapper-4 {
+        font-size: 40px;
+        margin-left: 50px;
+        margin-top: 200px;
+        margin-bottom: 150px;
+    }
+    .spa-list li {
+        margin-bottom: 35px;
+        font-size: 32px;
+    }
+    #footer-logo {
+        width: 210px;
+        height: auto;
+        margin-top: 30px;
+    }
+    #partner-logos {
+        gap: 60px;
+    }
+    #ContactInfo ul {
+        margin-top: 60px;
+        margin-left: 0;
+        padding: 0 20px;
+    }
+    #ContactInfo li {
+        margin-bottom: 15px;
+        height: 70px;
+    }
+    #ContactInfo img {
+        width: 70px;
+    }
+    #ContactInfo li:hover {
+        transform: scale(1.1);
+        box-shadow: 0 0 0 2.5px rgb(227, 227, 227), 0px 12px 20px rgba(0, 0, 0, 0.3);
+    }
+    #meguiars {
+        width: 170px;
+        height: auto;
+    }
+    #karcher {
+        width: 175px;
+        height: auto;
+    }
+    #mothers {
+        width: 175px;
+        height: auto;
+    }
+}
